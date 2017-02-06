@@ -5,6 +5,6 @@
 	define('TITLE_NAME','问卷调查');
 	define('TITLE_KEMU','bank');
 	define('APP_DEBUG',true);
-	define('SITE_PATH',"http://localhost/th/test/");
-	require('../ThinkPHP/ThinkPHP.php');
+	define('SITE_PATH',"http://localhost/judge/");
+	require('ThinkPHP/ThinkPHP.php');
 ?>

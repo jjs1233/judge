@@ -70,3 +70,435 @@ INFO: [ app_end ] --START--
 INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000500s ]
 INFO: [ app_end ] --END-- [ RunTime:0.000500s ]
 
+[ 2017-02-06T20:20:42+08:00 ] ::1 /judge/paper/paper/paper
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [8] Use of undefined constant open_1 - assumed 'open_1' F:\HTML\judge\Paper\Controller\PaperController.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `connect` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `connect` WHERE `open_1` = 1  [ RunTime:0.0005s ]
+NOTIC: [8] Use of undefined constant target - assumed 'target' F:\HTML\judge\Paper\Controller\PaperController.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `bank` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bank` WHERE `target` = '11' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT MIN(id) AS tp_min FROM `bank` WHERE `target` = '11' LIMIT 1   [ RunTime:0.0015s ]
+SQL: SELECT * FROM `bank` WHERE `target` = '11' AND `id` IN (1900,1908,1920,1929,1950,1962,1972,1986,1996,2002,2020,2027,2044,2059,2062,2074,2095,2099,2115,2125)  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined offset: 4 F:\HTML\judge\Paper\Controller\PaperController.class.php 第 19 行.
+NOTIC: [8] Undefined offset: 4 F:\HTML\judge\Paper\Controller\PaperController.class.php 第 19 行.
+NOTIC: [8] Undefined offset: 4 F:\HTML\judge\Paper\Controller\PaperController.class.php 第 19 行.
+NOTIC: [8] Undefined offset: 4 F:\HTML\judge\Paper\Controller\PaperController.class.php 第 19 行.
+NOTIC: [8] Undefined offset: 4 F:\HTML\judge\Paper\Controller\PaperController.class.php 第 19 行.
+NOTIC: [8] Undefined offset: 4 F:\HTML\judge\Paper\Controller\PaperController.class.php 第 19 行.
+NOTIC: [8] Undefined offset: 4 F:\HTML\judge\Paper\Controller\PaperController.class.php 第 19 行.
+NOTIC: [8] Undefined offset: 4 F:\HTML\judge\Paper\Controller\PaperController.class.php 第 19 行.
+NOTIC: [8] Undefined offset: 4 F:\HTML\judge\Paper\Controller\PaperController.class.php 第 19 行.
+NOTIC: [8] Undefined offset: 4 F:\HTML\judge\Paper\Controller\PaperController.class.php 第 19 行.
+NOTIC: [8] Undefined offset: 4 F:\HTML\judge\Paper\Controller\PaperController.class.php 第 19 行.
+NOTIC: [8] Undefined offset: 4 F:\HTML\judge\Paper\Controller\PaperController.class.php 第 19 行.
+NOTIC: [8] Undefined offset: 4 F:\HTML\judge\Paper\Controller\PaperController.class.php 第 19 行.
+NOTIC: [8] Undefined offset: 4 F:\HTML\judge\Paper\Controller\PaperController.class.php 第 19 行.
+NOTIC: [8] Undefined offset: 4 F:\HTML\judge\Paper\Controller\PaperController.class.php 第 19 行.
+NOTIC: [8] Undefined offset: 4 F:\HTML\judge\Paper\Controller\PaperController.class.php 第 19 行.
+NOTIC: [8] Undefined offset: 4 F:\HTML\judge\Paper\Controller\PaperController.class.php 第 19 行.
+NOTIC: [8] Undefined offset: 4 F:\HTML\judge\Paper\Controller\PaperController.class.php 第 19 行.
+NOTIC: [8] Undefined offset: 4 F:\HTML\judge\Paper\Controller\PaperController.class.php 第 19 行.
+NOTIC: [8] Undefined offset: 4 F:\HTML\judge\Paper\Controller\PaperController.class.php 第 19 行.
+NOTIC: [8] Undefined offset: 20 F:\HTML\judge\Paper\Controller\PaperController.class.php 第 12 行.
+NOTIC: [8] Use of undefined constant target - assumed 'target' F:\HTML\judge\Paper\Controller\PaperController.class.php 第 26 行.
+NOTIC: [8] Undefined index: username F:\HTML\judge\Paper\Controller\PaperController.class.php 第 28 行.
+NOTIC: [8] Undefined index: usernumber F:\HTML\judge\Paper\Controller\PaperController.class.php 第 29 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000500s ]
+NOTIC: [8] Undefined index: answer_4 F:\HTML\judge\Runtime\Cache\Paper\c9d5b38a2688c786d430a201e5857f7d.php 第 434 行.
+NOTIC: [8] Undefined index: answer_4 F:\HTML\judge\Runtime\Cache\Paper\c9d5b38a2688c786d430a201e5857f7d.php 第 434 行.
+NOTIC: [8] Undefined index: answer_4 F:\HTML\judge\Runtime\Cache\Paper\c9d5b38a2688c786d430a201e5857f7d.php 第 434 行.
+NOTIC: [8] Undefined index: answer_4 F:\HTML\judge\Runtime\Cache\Paper\c9d5b38a2688c786d430a201e5857f7d.php 第 434 行.
+NOTIC: [8] Undefined index: answer_4 F:\HTML\judge\Runtime\Cache\Paper\c9d5b38a2688c786d430a201e5857f7d.php 第 434 行.
+NOTIC: [8] Undefined index: answer_4 F:\HTML\judge\Runtime\Cache\Paper\c9d5b38a2688c786d430a201e5857f7d.php 第 434 行.
+NOTIC: [8] Undefined index: answer_4 F:\HTML\judge\Runtime\Cache\Paper\c9d5b38a2688c786d430a201e5857f7d.php 第 434 行.
+NOTIC: [8] Undefined index: answer_4 F:\HTML\judge\Runtime\Cache\Paper\c9d5b38a2688c786d430a201e5857f7d.php 第 434 行.
+NOTIC: [8] Undefined index: answer_4 F:\HTML\judge\Runtime\Cache\Paper\c9d5b38a2688c786d430a201e5857f7d.php 第 434 行.
+NOTIC: [8] Undefined index: answer_4 F:\HTML\judge\Runtime\Cache\Paper\c9d5b38a2688c786d430a201e5857f7d.php 第 434 行.
+NOTIC: [8] Undefined index: answer_4 F:\HTML\judge\Runtime\Cache\Paper\c9d5b38a2688c786d430a201e5857f7d.php 第 434 行.
+NOTIC: [8] Undefined index: answer_4 F:\HTML\judge\Runtime\Cache\Paper\c9d5b38a2688c786d430a201e5857f7d.php 第 434 行.
+NOTIC: [8] Undefined index: answer_4 F:\HTML\judge\Runtime\Cache\Paper\c9d5b38a2688c786d430a201e5857f7d.php 第 434 行.
+NOTIC: [8] Undefined index: answer_4 F:\HTML\judge\Runtime\Cache\Paper\c9d5b38a2688c786d430a201e5857f7d.php 第 434 行.
+NOTIC: [8] Undefined index: answer_4 F:\HTML\judge\Runtime\Cache\Paper\c9d5b38a2688c786d430a201e5857f7d.php 第 434 行.
+NOTIC: [8] Undefined index: answer_4 F:\HTML\judge\Runtime\Cache\Paper\c9d5b38a2688c786d430a201e5857f7d.php 第 434 行.
+NOTIC: [8] Undefined index: answer_4 F:\HTML\judge\Runtime\Cache\Paper\c9d5b38a2688c786d430a201e5857f7d.php 第 434 行.
+NOTIC: [8] Undefined index: answer_4 F:\HTML\judge\Runtime\Cache\Paper\c9d5b38a2688c786d430a201e5857f7d.php 第 434 行.
+NOTIC: [8] Undefined index: answer_4 F:\HTML\judge\Runtime\Cache\Paper\c9d5b38a2688c786d430a201e5857f7d.php 第 434 行.
+NOTIC: [8] Undefined index: answer_4 F:\HTML\judge\Runtime\Cache\Paper\c9d5b38a2688c786d430a201e5857f7d.php 第 434 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-02-06T20:43:18+08:00 ] ::1 /judge/paper/paper/paper
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant open_1 - assumed 'open_1' F:\HTML\judge\Paper\Controller\PaperController.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `connect` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `connect` WHERE `open_1` = 1  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant target - assumed 'target' F:\HTML\judge\Paper\Controller\PaperController.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `bank` [ RunTime:0.0025s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bank` WHERE `target` = '11' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT MIN(id) AS tp_min FROM `bank` WHERE `target` = '11' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `bank` WHERE `target` = '11' AND `id` IN (1896,1905,1917,1932,1947,1961,1964,1978,1996,2008,2016,2034,2044,2054,2065,2081,2086,2106,2110,2131)  [ RunTime:0.0330s ]
+NOTIC: [8] Undefined offset: 4 F:\HTML\judge\Paper\Controller\PaperController.class.php 第 19 行.
+NOTIC: [8] Undefined offset: 4 F:\HTML\judge\Paper\Controller\PaperController.class.php 第 19 行.
+NOTIC: [8] Undefined offset: 4 F:\HTML\judge\Paper\Controller\PaperController.class.php 第 19 行.
+NOTIC: [8] Undefined offset: 4 F:\HTML\judge\Paper\Controller\PaperController.class.php 第 19 行.
+NOTIC: [8] Undefined offset: 4 F:\HTML\judge\Paper\Controller\PaperController.class.php 第 19 行.
+NOTIC: [8] Undefined offset: 4 F:\HTML\judge\Paper\Controller\PaperController.class.php 第 19 行.
+NOTIC: [8] Undefined offset: 4 F:\HTML\judge\Paper\Controller\PaperController.class.php 第 19 行.
+NOTIC: [8] Undefined offset: 4 F:\HTML\judge\Paper\Controller\PaperController.class.php 第 19 行.
+NOTIC: [8] Undefined offset: 4 F:\HTML\judge\Paper\Controller\PaperController.class.php 第 19 行.
+NOTIC: [8] Undefined offset: 4 F:\HTML\judge\Paper\Controller\PaperController.class.php 第 19 行.
+NOTIC: [8] Undefined offset: 4 F:\HTML\judge\Paper\Controller\PaperController.class.php 第 19 行.
+NOTIC: [8] Undefined offset: 4 F:\HTML\judge\Paper\Controller\PaperController.class.php 第 19 行.
+NOTIC: [8] Undefined offset: 4 F:\HTML\judge\Paper\Controller\PaperController.class.php 第 19 行.
+NOTIC: [8] Undefined offset: 4 F:\HTML\judge\Paper\Controller\PaperController.class.php 第 19 行.
+NOTIC: [8] Undefined offset: 4 F:\HTML\judge\Paper\Controller\PaperController.class.php 第 19 行.
+NOTIC: [8] Undefined offset: 4 F:\HTML\judge\Paper\Controller\PaperController.class.php 第 19 行.
+NOTIC: [8] Undefined offset: 4 F:\HTML\judge\Paper\Controller\PaperController.class.php 第 19 行.
+NOTIC: [8] Undefined offset: 4 F:\HTML\judge\Paper\Controller\PaperController.class.php 第 19 行.
+NOTIC: [8] Undefined offset: 4 F:\HTML\judge\Paper\Controller\PaperController.class.php 第 19 行.
+NOTIC: [8] Undefined offset: 4 F:\HTML\judge\Paper\Controller\PaperController.class.php 第 19 行.
+NOTIC: [8] Undefined offset: 20 F:\HTML\judge\Paper\Controller\PaperController.class.php 第 12 行.
+NOTIC: [8] Use of undefined constant target - assumed 'target' F:\HTML\judge\Paper\Controller\PaperController.class.php 第 26 行.
+NOTIC: [8] Undefined index: username F:\HTML\judge\Paper\Controller\PaperController.class.php 第 28 行.
+NOTIC: [8] Undefined index: usernumber F:\HTML\judge\Paper\Controller\PaperController.class.php 第 29 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: answer_4 F:\HTML\judge\Runtime\Cache\Paper\c9d5b38a2688c786d430a201e5857f7d.php 第 434 行.
+NOTIC: [8] Undefined index: answer_4 F:\HTML\judge\Runtime\Cache\Paper\c9d5b38a2688c786d430a201e5857f7d.php 第 434 行.
+NOTIC: [8] Undefined index: answer_4 F:\HTML\judge\Runtime\Cache\Paper\c9d5b38a2688c786d430a201e5857f7d.php 第 434 行.
+NOTIC: [8] Undefined index: answer_4 F:\HTML\judge\Runtime\Cache\Paper\c9d5b38a2688c786d430a201e5857f7d.php 第 434 行.
+NOTIC: [8] Undefined index: answer_4 F:\HTML\judge\Runtime\Cache\Paper\c9d5b38a2688c786d430a201e5857f7d.php 第 434 行.
+NOTIC: [8] Undefined index: answer_4 F:\HTML\judge\Runtime\Cache\Paper\c9d5b38a2688c786d430a201e5857f7d.php 第 434 行.
+NOTIC: [8] Undefined index: answer_4 F:\HTML\judge\Runtime\Cache\Paper\c9d5b38a2688c786d430a201e5857f7d.php 第 434 行.
+NOTIC: [8] Undefined index: answer_4 F:\HTML\judge\Runtime\Cache\Paper\c9d5b38a2688c786d430a201e5857f7d.php 第 434 行.
+NOTIC: [8] Undefined index: answer_4 F:\HTML\judge\Runtime\Cache\Paper\c9d5b38a2688c786d430a201e5857f7d.php 第 434 行.
+NOTIC: [8] Undefined index: answer_4 F:\HTML\judge\Runtime\Cache\Paper\c9d5b38a2688c786d430a201e5857f7d.php 第 434 行.
+NOTIC: [8] Undefined index: answer_4 F:\HTML\judge\Runtime\Cache\Paper\c9d5b38a2688c786d430a201e5857f7d.php 第 434 行.
+NOTIC: [8] Undefined index: answer_4 F:\HTML\judge\Runtime\Cache\Paper\c9d5b38a2688c786d430a201e5857f7d.php 第 434 行.
+NOTIC: [8] Undefined index: answer_4 F:\HTML\judge\Runtime\Cache\Paper\c9d5b38a2688c786d430a201e5857f7d.php 第 434 行.
+NOTIC: [8] Undefined index: answer_4 F:\HTML\judge\Runtime\Cache\Paper\c9d5b38a2688c786d430a201e5857f7d.php 第 434 行.
+NOTIC: [8] Undefined index: answer_4 F:\HTML\judge\Runtime\Cache\Paper\c9d5b38a2688c786d430a201e5857f7d.php 第 434 行.
+NOTIC: [8] Undefined index: answer_4 F:\HTML\judge\Runtime\Cache\Paper\c9d5b38a2688c786d430a201e5857f7d.php 第 434 行.
+NOTIC: [8] Undefined index: answer_4 F:\HTML\judge\Runtime\Cache\Paper\c9d5b38a2688c786d430a201e5857f7d.php 第 434 行.
+NOTIC: [8] Undefined index: answer_4 F:\HTML\judge\Runtime\Cache\Paper\c9d5b38a2688c786d430a201e5857f7d.php 第 434 行.
+NOTIC: [8] Undefined index: answer_4 F:\HTML\judge\Runtime\Cache\Paper\c9d5b38a2688c786d430a201e5857f7d.php 第 434 行.
+NOTIC: [8] Undefined index: answer_4 F:\HTML\judge\Runtime\Cache\Paper\c9d5b38a2688c786d430a201e5857f7d.php 第 434 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010502s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010502s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000500s ]
+
+[ 2017-02-06T20:43:26+08:00 ] ::1 /judge/paper/paper/paper
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+NOTIC: [8] Use of undefined constant open_1 - assumed 'open_1' F:\HTML\judge\Paper\Controller\PaperController.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `connect` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `connect` WHERE `open_1` = 1  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant target - assumed 'target' F:\HTML\judge\Paper\Controller\PaperController.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `bank` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bank` WHERE `target` = '11' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT MIN(id) AS tp_min FROM `bank` WHERE `target` = '11' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `bank` WHERE `target` = '11' AND `id` IN (1896,1914,1922,1936,1940,1954,1969,1978,1990,2002,2014,2026,2043,2057,2063,2082,2084,2102,2109,2120)  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined offset: 4 F:\HTML\judge\Paper\Controller\PaperController.class.php 第 19 行.
+NOTIC: [8] Undefined offset: 4 F:\HTML\judge\Paper\Controller\PaperController.class.php 第 19 行.
+NOTIC: [8] Undefined offset: 4 F:\HTML\judge\Paper\Controller\PaperController.class.php 第 19 行.
+NOTIC: [8] Undefined offset: 4 F:\HTML\judge\Paper\Controller\PaperController.class.php 第 19 行.
+NOTIC: [8] Undefined offset: 4 F:\HTML\judge\Paper\Controller\PaperController.class.php 第 19 行.
+NOTIC: [8] Undefined offset: 4 F:\HTML\judge\Paper\Controller\PaperController.class.php 第 19 行.
+NOTIC: [8] Undefined offset: 4 F:\HTML\judge\Paper\Controller\PaperController.class.php 第 19 行.
+NOTIC: [8] Undefined offset: 4 F:\HTML\judge\Paper\Controller\PaperController.class.php 第 19 行.
+NOTIC: [8] Undefined offset: 4 F:\HTML\judge\Paper\Controller\PaperController.class.php 第 19 行.
+NOTIC: [8] Undefined offset: 4 F:\HTML\judge\Paper\Controller\PaperController.class.php 第 19 行.
+NOTIC: [8] Undefined offset: 4 F:\HTML\judge\Paper\Controller\PaperController.class.php 第 19 行.
+NOTIC: [8] Undefined offset: 4 F:\HTML\judge\Paper\Controller\PaperController.class.php 第 19 行.
+NOTIC: [8] Undefined offset: 4 F:\HTML\judge\Paper\Controller\PaperController.class.php 第 19 行.
+NOTIC: [8] Undefined offset: 4 F:\HTML\judge\Paper\Controller\PaperController.class.php 第 19 行.
+NOTIC: [8] Undefined offset: 4 F:\HTML\judge\Paper\Controller\PaperController.class.php 第 19 行.
+NOTIC: [8] Undefined offset: 4 F:\HTML\judge\Paper\Controller\PaperController.class.php 第 19 行.
+NOTIC: [8] Undefined offset: 4 F:\HTML\judge\Paper\Controller\PaperController.class.php 第 19 行.
+NOTIC: [8] Undefined offset: 4 F:\HTML\judge\Paper\Controller\PaperController.class.php 第 19 行.
+NOTIC: [8] Undefined offset: 4 F:\HTML\judge\Paper\Controller\PaperController.class.php 第 19 行.
+NOTIC: [8] Undefined offset: 4 F:\HTML\judge\Paper\Controller\PaperController.class.php 第 19 行.
+NOTIC: [8] Undefined offset: 20 F:\HTML\judge\Paper\Controller\PaperController.class.php 第 12 行.
+NOTIC: [8] Use of undefined constant target - assumed 'target' F:\HTML\judge\Paper\Controller\PaperController.class.php 第 26 行.
+NOTIC: [8] Undefined index: username F:\HTML\judge\Paper\Controller\PaperController.class.php 第 28 行.
+NOTIC: [8] Undefined index: usernumber F:\HTML\judge\Paper\Controller\PaperController.class.php 第 29 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000500s ]
+NOTIC: [8] Undefined index: answer_4 F:\HTML\judge\Runtime\Cache\Paper\c9d5b38a2688c786d430a201e5857f7d.php 第 434 行.
+NOTIC: [8] Undefined index: answer_4 F:\HTML\judge\Runtime\Cache\Paper\c9d5b38a2688c786d430a201e5857f7d.php 第 434 行.
+NOTIC: [8] Undefined index: answer_4 F:\HTML\judge\Runtime\Cache\Paper\c9d5b38a2688c786d430a201e5857f7d.php 第 434 行.
+NOTIC: [8] Undefined index: answer_4 F:\HTML\judge\Runtime\Cache\Paper\c9d5b38a2688c786d430a201e5857f7d.php 第 434 行.
+NOTIC: [8] Undefined index: answer_4 F:\HTML\judge\Runtime\Cache\Paper\c9d5b38a2688c786d430a201e5857f7d.php 第 434 行.
+NOTIC: [8] Undefined index: answer_4 F:\HTML\judge\Runtime\Cache\Paper\c9d5b38a2688c786d430a201e5857f7d.php 第 434 行.
+NOTIC: [8] Undefined index: answer_4 F:\HTML\judge\Runtime\Cache\Paper\c9d5b38a2688c786d430a201e5857f7d.php 第 434 行.
+NOTIC: [8] Undefined index: answer_4 F:\HTML\judge\Runtime\Cache\Paper\c9d5b38a2688c786d430a201e5857f7d.php 第 434 行.
+NOTIC: [8] Undefined index: answer_4 F:\HTML\judge\Runtime\Cache\Paper\c9d5b38a2688c786d430a201e5857f7d.php 第 434 行.
+NOTIC: [8] Undefined index: answer_4 F:\HTML\judge\Runtime\Cache\Paper\c9d5b38a2688c786d430a201e5857f7d.php 第 434 行.
+NOTIC: [8] Undefined index: answer_4 F:\HTML\judge\Runtime\Cache\Paper\c9d5b38a2688c786d430a201e5857f7d.php 第 434 行.
+NOTIC: [8] Undefined index: answer_4 F:\HTML\judge\Runtime\Cache\Paper\c9d5b38a2688c786d430a201e5857f7d.php 第 434 行.
+NOTIC: [8] Undefined index: answer_4 F:\HTML\judge\Runtime\Cache\Paper\c9d5b38a2688c786d430a201e5857f7d.php 第 434 行.
+NOTIC: [8] Undefined index: answer_4 F:\HTML\judge\Runtime\Cache\Paper\c9d5b38a2688c786d430a201e5857f7d.php 第 434 行.
+NOTIC: [8] Undefined index: answer_4 F:\HTML\judge\Runtime\Cache\Paper\c9d5b38a2688c786d430a201e5857f7d.php 第 434 行.
+NOTIC: [8] Undefined index: answer_4 F:\HTML\judge\Runtime\Cache\Paper\c9d5b38a2688c786d430a201e5857f7d.php 第 434 行.
+NOTIC: [8] Undefined index: answer_4 F:\HTML\judge\Runtime\Cache\Paper\c9d5b38a2688c786d430a201e5857f7d.php 第 434 行.
+NOTIC: [8] Undefined index: answer_4 F:\HTML\judge\Runtime\Cache\Paper\c9d5b38a2688c786d430a201e5857f7d.php 第 434 行.
+NOTIC: [8] Undefined index: answer_4 F:\HTML\judge\Runtime\Cache\Paper\c9d5b38a2688c786d430a201e5857f7d.php 第 434 行.
+NOTIC: [8] Undefined index: answer_4 F:\HTML\judge\Runtime\Cache\Paper\c9d5b38a2688c786d430a201e5857f7d.php 第 434 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016502s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016502s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001500s ]
+
+[ 2017-02-06T20:43:29+08:00 ] ::1 /judge/paper/paper/paper
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant open_1 - assumed 'open_1' F:\HTML\judge\Paper\Controller\PaperController.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `connect` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `connect` WHERE `open_1` = 1  [ RunTime:0.0005s ]
+NOTIC: [8] Use of undefined constant target - assumed 'target' F:\HTML\judge\Paper\Controller\PaperController.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `bank` [ RunTime:0.0025s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bank` WHERE `target` = '11' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT MIN(id) AS tp_min FROM `bank` WHERE `target` = '11' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `bank` WHERE `target` = '11' AND `id` IN (1900,1907,1925,1932,1948,1953,1973,1986,1999,2008,2021,2035,2047,2057,2064,2082,2095,2105,2119,2128)  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined offset: 4 F:\HTML\judge\Paper\Controller\PaperController.class.php 第 19 行.
+NOTIC: [8] Undefined offset: 4 F:\HTML\judge\Paper\Controller\PaperController.class.php 第 19 行.
+NOTIC: [8] Undefined offset: 4 F:\HTML\judge\Paper\Controller\PaperController.class.php 第 19 行.
+NOTIC: [8] Undefined offset: 4 F:\HTML\judge\Paper\Controller\PaperController.class.php 第 19 行.
+NOTIC: [8] Undefined offset: 4 F:\HTML\judge\Paper\Controller\PaperController.class.php 第 19 行.
+NOTIC: [8] Undefined offset: 4 F:\HTML\judge\Paper\Controller\PaperController.class.php 第 19 行.
+NOTIC: [8] Undefined offset: 4 F:\HTML\judge\Paper\Controller\PaperController.class.php 第 19 行.
+NOTIC: [8] Undefined offset: 4 F:\HTML\judge\Paper\Controller\PaperController.class.php 第 19 行.
+NOTIC: [8] Undefined offset: 4 F:\HTML\judge\Paper\Controller\PaperController.class.php 第 19 行.
+NOTIC: [8] Undefined offset: 4 F:\HTML\judge\Paper\Controller\PaperController.class.php 第 19 行.
+NOTIC: [8] Undefined offset: 4 F:\HTML\judge\Paper\Controller\PaperController.class.php 第 19 行.
+NOTIC: [8] Undefined offset: 4 F:\HTML\judge\Paper\Controller\PaperController.class.php 第 19 行.
+NOTIC: [8] Undefined offset: 4 F:\HTML\judge\Paper\Controller\PaperController.class.php 第 19 行.
+NOTIC: [8] Undefined offset: 4 F:\HTML\judge\Paper\Controller\PaperController.class.php 第 19 行.
+NOTIC: [8] Undefined offset: 4 F:\HTML\judge\Paper\Controller\PaperController.class.php 第 19 行.
+NOTIC: [8] Undefined offset: 4 F:\HTML\judge\Paper\Controller\PaperController.class.php 第 19 行.
+NOTIC: [8] Undefined offset: 4 F:\HTML\judge\Paper\Controller\PaperController.class.php 第 19 行.
+NOTIC: [8] Undefined offset: 4 F:\HTML\judge\Paper\Controller\PaperController.class.php 第 19 行.
+NOTIC: [8] Undefined offset: 4 F:\HTML\judge\Paper\Controller\PaperController.class.php 第 19 行.
+NOTIC: [8] Undefined offset: 4 F:\HTML\judge\Paper\Controller\PaperController.class.php 第 19 行.
+NOTIC: [8] Undefined offset: 20 F:\HTML\judge\Paper\Controller\PaperController.class.php 第 12 行.
+NOTIC: [8] Use of undefined constant target - assumed 'target' F:\HTML\judge\Paper\Controller\PaperController.class.php 第 26 行.
+NOTIC: [8] Undefined index: username F:\HTML\judge\Paper\Controller\PaperController.class.php 第 28 行.
+NOTIC: [8] Undefined index: usernumber F:\HTML\judge\Paper\Controller\PaperController.class.php 第 29 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: answer_4 F:\HTML\judge\Runtime\Cache\Paper\c9d5b38a2688c786d430a201e5857f7d.php 第 434 行.
+NOTIC: [8] Undefined index: answer_4 F:\HTML\judge\Runtime\Cache\Paper\c9d5b38a2688c786d430a201e5857f7d.php 第 434 行.
+NOTIC: [8] Undefined index: answer_4 F:\HTML\judge\Runtime\Cache\Paper\c9d5b38a2688c786d430a201e5857f7d.php 第 434 行.
+NOTIC: [8] Undefined index: answer_4 F:\HTML\judge\Runtime\Cache\Paper\c9d5b38a2688c786d430a201e5857f7d.php 第 434 行.
+NOTIC: [8] Undefined index: answer_4 F:\HTML\judge\Runtime\Cache\Paper\c9d5b38a2688c786d430a201e5857f7d.php 第 434 行.
+NOTIC: [8] Undefined index: answer_4 F:\HTML\judge\Runtime\Cache\Paper\c9d5b38a2688c786d430a201e5857f7d.php 第 434 行.
+NOTIC: [8] Undefined index: answer_4 F:\HTML\judge\Runtime\Cache\Paper\c9d5b38a2688c786d430a201e5857f7d.php 第 434 行.
+NOTIC: [8] Undefined index: answer_4 F:\HTML\judge\Runtime\Cache\Paper\c9d5b38a2688c786d430a201e5857f7d.php 第 434 行.
+NOTIC: [8] Undefined index: answer_4 F:\HTML\judge\Runtime\Cache\Paper\c9d5b38a2688c786d430a201e5857f7d.php 第 434 行.
+NOTIC: [8] Undefined index: answer_4 F:\HTML\judge\Runtime\Cache\Paper\c9d5b38a2688c786d430a201e5857f7d.php 第 434 行.
+NOTIC: [8] Undefined index: answer_4 F:\HTML\judge\Runtime\Cache\Paper\c9d5b38a2688c786d430a201e5857f7d.php 第 434 行.
+NOTIC: [8] Undefined index: answer_4 F:\HTML\judge\Runtime\Cache\Paper\c9d5b38a2688c786d430a201e5857f7d.php 第 434 行.
+NOTIC: [8] Undefined index: answer_4 F:\HTML\judge\Runtime\Cache\Paper\c9d5b38a2688c786d430a201e5857f7d.php 第 434 行.
+NOTIC: [8] Undefined index: answer_4 F:\HTML\judge\Runtime\Cache\Paper\c9d5b38a2688c786d430a201e5857f7d.php 第 434 行.
+NOTIC: [8] Undefined index: answer_4 F:\HTML\judge\Runtime\Cache\Paper\c9d5b38a2688c786d430a201e5857f7d.php 第 434 行.
+NOTIC: [8] Undefined index: answer_4 F:\HTML\judge\Runtime\Cache\Paper\c9d5b38a2688c786d430a201e5857f7d.php 第 434 行.
+NOTIC: [8] Undefined index: answer_4 F:\HTML\judge\Runtime\Cache\Paper\c9d5b38a2688c786d430a201e5857f7d.php 第 434 行.
+NOTIC: [8] Undefined index: answer_4 F:\HTML\judge\Runtime\Cache\Paper\c9d5b38a2688c786d430a201e5857f7d.php 第 434 行.
+NOTIC: [8] Undefined index: answer_4 F:\HTML\judge\Runtime\Cache\Paper\c9d5b38a2688c786d430a201e5857f7d.php 第 434 行.
+NOTIC: [8] Undefined index: answer_4 F:\HTML\judge\Runtime\Cache\Paper\c9d5b38a2688c786d430a201e5857f7d.php 第 434 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012502s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012502s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001500s ]
+
+[ 2017-02-06T20:43:41+08:00 ] ::1 /judge/paper/paper/paper
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+NOTIC: [8] Use of undefined constant open_1 - assumed 'open_1' F:\HTML\judge\Paper\Controller\PaperController.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `connect` [ RunTime:0.0345s ]
+SQL: SELECT * FROM `connect` WHERE `open_1` = 1  [ RunTime:0.0005s ]
+NOTIC: [8] Use of undefined constant target - assumed 'target' F:\HTML\judge\Paper\Controller\PaperController.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `bank` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bank` WHERE `target` = '11' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT MIN(id) AS tp_min FROM `bank` WHERE `target` = '11' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `bank` WHERE `target` = '11' AND `id` IN (1895,1912,1922,1929,1943,1962,1974,1976,1988,2000,2019,2035,2036,2057,2071,2075,2087,2104,2113,2126)  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined offset: 4 F:\HTML\judge\Paper\Controller\PaperController.class.php 第 19 行.
+NOTIC: [8] Undefined offset: 4 F:\HTML\judge\Paper\Controller\PaperController.class.php 第 19 行.
+NOTIC: [8] Undefined offset: 4 F:\HTML\judge\Paper\Controller\PaperController.class.php 第 19 行.
+NOTIC: [8] Undefined offset: 4 F:\HTML\judge\Paper\Controller\PaperController.class.php 第 19 行.
+NOTIC: [8] Undefined offset: 4 F:\HTML\judge\Paper\Controller\PaperController.class.php 第 19 行.
+NOTIC: [8] Undefined offset: 4 F:\HTML\judge\Paper\Controller\PaperController.class.php 第 19 行.
+NOTIC: [8] Undefined offset: 4 F:\HTML\judge\Paper\Controller\PaperController.class.php 第 19 行.
+NOTIC: [8] Undefined offset: 4 F:\HTML\judge\Paper\Controller\PaperController.class.php 第 19 行.
+NOTIC: [8] Undefined offset: 4 F:\HTML\judge\Paper\Controller\PaperController.class.php 第 19 行.
+NOTIC: [8] Undefined offset: 4 F:\HTML\judge\Paper\Controller\PaperController.class.php 第 19 行.
+NOTIC: [8] Undefined offset: 4 F:\HTML\judge\Paper\Controller\PaperController.class.php 第 19 行.
+NOTIC: [8] Undefined offset: 4 F:\HTML\judge\Paper\Controller\PaperController.class.php 第 19 行.
+NOTIC: [8] Undefined offset: 4 F:\HTML\judge\Paper\Controller\PaperController.class.php 第 19 行.
+NOTIC: [8] Undefined offset: 4 F:\HTML\judge\Paper\Controller\PaperController.class.php 第 19 行.
+NOTIC: [8] Undefined offset: 4 F:\HTML\judge\Paper\Controller\PaperController.class.php 第 19 行.
+NOTIC: [8] Undefined offset: 4 F:\HTML\judge\Paper\Controller\PaperController.class.php 第 19 行.
+NOTIC: [8] Undefined offset: 4 F:\HTML\judge\Paper\Controller\PaperController.class.php 第 19 行.
+NOTIC: [8] Undefined offset: 4 F:\HTML\judge\Paper\Controller\PaperController.class.php 第 19 行.
+NOTIC: [8] Undefined offset: 4 F:\HTML\judge\Paper\Controller\PaperController.class.php 第 19 行.
+NOTIC: [8] Undefined offset: 4 F:\HTML\judge\Paper\Controller\PaperController.class.php 第 19 行.
+NOTIC: [8] Undefined offset: 20 F:\HTML\judge\Paper\Controller\PaperController.class.php 第 12 行.
+NOTIC: [8] Use of undefined constant target - assumed 'target' F:\HTML\judge\Paper\Controller\PaperController.class.php 第 26 行.
+NOTIC: [8] Undefined index: username F:\HTML\judge\Paper\Controller\PaperController.class.php 第 28 行.
+NOTIC: [8] Undefined index: usernumber F:\HTML\judge\Paper\Controller\PaperController.class.php 第 29 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000500s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000500s ]
+NOTIC: [8] Undefined index: answer_4 F:\HTML\judge\Runtime\Cache\Paper\c9d5b38a2688c786d430a201e5857f7d.php 第 434 行.
+NOTIC: [8] Undefined index: answer_4 F:\HTML\judge\Runtime\Cache\Paper\c9d5b38a2688c786d430a201e5857f7d.php 第 434 行.
+NOTIC: [8] Undefined index: answer_4 F:\HTML\judge\Runtime\Cache\Paper\c9d5b38a2688c786d430a201e5857f7d.php 第 434 行.
+NOTIC: [8] Undefined index: answer_4 F:\HTML\judge\Runtime\Cache\Paper\c9d5b38a2688c786d430a201e5857f7d.php 第 434 行.
+NOTIC: [8] Undefined index: answer_4 F:\HTML\judge\Runtime\Cache\Paper\c9d5b38a2688c786d430a201e5857f7d.php 第 434 行.
+NOTIC: [8] Undefined index: answer_4 F:\HTML\judge\Runtime\Cache\Paper\c9d5b38a2688c786d430a201e5857f7d.php 第 434 行.
+NOTIC: [8] Undefined index: answer_4 F:\HTML\judge\Runtime\Cache\Paper\c9d5b38a2688c786d430a201e5857f7d.php 第 434 行.
+NOTIC: [8] Undefined index: answer_4 F:\HTML\judge\Runtime\Cache\Paper\c9d5b38a2688c786d430a201e5857f7d.php 第 434 行.
+NOTIC: [8] Undefined index: answer_4 F:\HTML\judge\Runtime\Cache\Paper\c9d5b38a2688c786d430a201e5857f7d.php 第 434 行.
+NOTIC: [8] Undefined index: answer_4 F:\HTML\judge\Runtime\Cache\Paper\c9d5b38a2688c786d430a201e5857f7d.php 第 434 行.
+NOTIC: [8] Undefined index: answer_4 F:\HTML\judge\Runtime\Cache\Paper\c9d5b38a2688c786d430a201e5857f7d.php 第 434 行.
+NOTIC: [8] Undefined index: answer_4 F:\HTML\judge\Runtime\Cache\Paper\c9d5b38a2688c786d430a201e5857f7d.php 第 434 行.
+NOTIC: [8] Undefined index: answer_4 F:\HTML\judge\Runtime\Cache\Paper\c9d5b38a2688c786d430a201e5857f7d.php 第 434 行.
+NOTIC: [8] Undefined index: answer_4 F:\HTML\judge\Runtime\Cache\Paper\c9d5b38a2688c786d430a201e5857f7d.php 第 434 行.
+NOTIC: [8] Undefined index: answer_4 F:\HTML\judge\Runtime\Cache\Paper\c9d5b38a2688c786d430a201e5857f7d.php 第 434 行.
+NOTIC: [8] Undefined index: answer_4 F:\HTML\judge\Runtime\Cache\Paper\c9d5b38a2688c786d430a201e5857f7d.php 第 434 行.
+NOTIC: [8] Undefined index: answer_4 F:\HTML\judge\Runtime\Cache\Paper\c9d5b38a2688c786d430a201e5857f7d.php 第 434 行.
+NOTIC: [8] Undefined index: answer_4 F:\HTML\judge\Runtime\Cache\Paper\c9d5b38a2688c786d430a201e5857f7d.php 第 434 行.
+NOTIC: [8] Undefined index: answer_4 F:\HTML\judge\Runtime\Cache\Paper\c9d5b38a2688c786d430a201e5857f7d.php 第 434 行.
+NOTIC: [8] Undefined index: answer_4 F:\HTML\judge\Runtime\Cache\Paper\c9d5b38a2688c786d430a201e5857f7d.php 第 434 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000500s ]
+
+[ 2017-02-06T20:43:52+08:00 ] ::1 /judge/paper/paper/paper
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+NOTIC: [8] Use of undefined constant open_1 - assumed 'open_1' F:\HTML\judge\Paper\Controller\PaperController.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `connect` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `connect` WHERE `open_1` = 1  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant target - assumed 'target' F:\HTML\judge\Paper\Controller\PaperController.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `bank` [ RunTime:0.0035s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bank` WHERE `target` = '11' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT MIN(id) AS tp_min FROM `bank` WHERE `target` = '11' LIMIT 1   [ RunTime:0.0015s ]
+SQL: SELECT * FROM `bank` WHERE `target` = '11' AND `id` IN (1898,1907,1921,1933,1945,1955,1967,1977,1989,2011,2015,2029,2039,2058,2071,2072,2088,2103,2114,2131)  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined offset: 4 F:\HTML\judge\Paper\Controller\PaperController.class.php 第 19 行.
+NOTIC: [8] Undefined offset: 4 F:\HTML\judge\Paper\Controller\PaperController.class.php 第 19 行.
+NOTIC: [8] Undefined offset: 4 F:\HTML\judge\Paper\Controller\PaperController.class.php 第 19 行.
+NOTIC: [8] Undefined offset: 4 F:\HTML\judge\Paper\Controller\PaperController.class.php 第 19 行.
+NOTIC: [8] Undefined offset: 4 F:\HTML\judge\Paper\Controller\PaperController.class.php 第 19 行.
+NOTIC: [8] Undefined offset: 4 F:\HTML\judge\Paper\Controller\PaperController.class.php 第 19 行.
+NOTIC: [8] Undefined offset: 4 F:\HTML\judge\Paper\Controller\PaperController.class.php 第 19 行.
+NOTIC: [8] Undefined offset: 4 F:\HTML\judge\Paper\Controller\PaperController.class.php 第 19 行.
+NOTIC: [8] Undefined offset: 4 F:\HTML\judge\Paper\Controller\PaperController.class.php 第 19 行.
+NOTIC: [8] Undefined offset: 4 F:\HTML\judge\Paper\Controller\PaperController.class.php 第 19 行.
+NOTIC: [8] Undefined offset: 4 F:\HTML\judge\Paper\Controller\PaperController.class.php 第 19 行.
+NOTIC: [8] Undefined offset: 4 F:\HTML\judge\Paper\Controller\PaperController.class.php 第 19 行.
+NOTIC: [8] Undefined offset: 4 F:\HTML\judge\Paper\Controller\PaperController.class.php 第 19 行.
+NOTIC: [8] Undefined offset: 4 F:\HTML\judge\Paper\Controller\PaperController.class.php 第 19 行.
+NOTIC: [8] Undefined offset: 4 F:\HTML\judge\Paper\Controller\PaperController.class.php 第 19 行.
+NOTIC: [8] Undefined offset: 4 F:\HTML\judge\Paper\Controller\PaperController.class.php 第 19 行.
+NOTIC: [8] Undefined offset: 4 F:\HTML\judge\Paper\Controller\PaperController.class.php 第 19 行.
+NOTIC: [8] Undefined offset: 4 F:\HTML\judge\Paper\Controller\PaperController.class.php 第 19 行.
+NOTIC: [8] Undefined offset: 4 F:\HTML\judge\Paper\Controller\PaperController.class.php 第 19 行.
+NOTIC: [8] Undefined offset: 4 F:\HTML\judge\Paper\Controller\PaperController.class.php 第 19 行.
+NOTIC: [8] Undefined offset: 20 F:\HTML\judge\Paper\Controller\PaperController.class.php 第 12 行.
+NOTIC: [8] Use of undefined constant target - assumed 'target' F:\HTML\judge\Paper\Controller\PaperController.class.php 第 26 行.
+NOTIC: [8] Undefined index: username F:\HTML\judge\Paper\Controller\PaperController.class.php 第 28 行.
+NOTIC: [8] Undefined index: usernumber F:\HTML\judge\Paper\Controller\PaperController.class.php 第 29 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: answer_4 F:\HTML\judge\Runtime\Cache\Paper\c9d5b38a2688c786d430a201e5857f7d.php 第 434 行.
+NOTIC: [8] Undefined index: answer_4 F:\HTML\judge\Runtime\Cache\Paper\c9d5b38a2688c786d430a201e5857f7d.php 第 434 行.
+NOTIC: [8] Undefined index: answer_4 F:\HTML\judge\Runtime\Cache\Paper\c9d5b38a2688c786d430a201e5857f7d.php 第 434 行.
+NOTIC: [8] Undefined index: answer_4 F:\HTML\judge\Runtime\Cache\Paper\c9d5b38a2688c786d430a201e5857f7d.php 第 434 行.
+NOTIC: [8] Undefined index: answer_4 F:\HTML\judge\Runtime\Cache\Paper\c9d5b38a2688c786d430a201e5857f7d.php 第 434 行.
+NOTIC: [8] Undefined index: answer_4 F:\HTML\judge\Runtime\Cache\Paper\c9d5b38a2688c786d430a201e5857f7d.php 第 434 行.
+NOTIC: [8] Undefined index: answer_4 F:\HTML\judge\Runtime\Cache\Paper\c9d5b38a2688c786d430a201e5857f7d.php 第 434 行.
+NOTIC: [8] Undefined index: answer_4 F:\HTML\judge\Runtime\Cache\Paper\c9d5b38a2688c786d430a201e5857f7d.php 第 434 行.
+NOTIC: [8] Undefined index: answer_4 F:\HTML\judge\Runtime\Cache\Paper\c9d5b38a2688c786d430a201e5857f7d.php 第 434 行.
+NOTIC: [8] Undefined index: answer_4 F:\HTML\judge\Runtime\Cache\Paper\c9d5b38a2688c786d430a201e5857f7d.php 第 434 行.
+NOTIC: [8] Undefined index: answer_4 F:\HTML\judge\Runtime\Cache\Paper\c9d5b38a2688c786d430a201e5857f7d.php 第 434 行.
+NOTIC: [8] Undefined index: answer_4 F:\HTML\judge\Runtime\Cache\Paper\c9d5b38a2688c786d430a201e5857f7d.php 第 434 行.
+NOTIC: [8] Undefined index: answer_4 F:\HTML\judge\Runtime\Cache\Paper\c9d5b38a2688c786d430a201e5857f7d.php 第 434 行.
+NOTIC: [8] Undefined index: answer_4 F:\HTML\judge\Runtime\Cache\Paper\c9d5b38a2688c786d430a201e5857f7d.php 第 434 行.
+NOTIC: [8] Undefined index: answer_4 F:\HTML\judge\Runtime\Cache\Paper\c9d5b38a2688c786d430a201e5857f7d.php 第 434 行.
+NOTIC: [8] Undefined index: answer_4 F:\HTML\judge\Runtime\Cache\Paper\c9d5b38a2688c786d430a201e5857f7d.php 第 434 行.
+NOTIC: [8] Undefined index: answer_4 F:\HTML\judge\Runtime\Cache\Paper\c9d5b38a2688c786d430a201e5857f7d.php 第 434 行.
+NOTIC: [8] Undefined index: answer_4 F:\HTML\judge\Runtime\Cache\Paper\c9d5b38a2688c786d430a201e5857f7d.php 第 434 行.
+NOTIC: [8] Undefined index: answer_4 F:\HTML\judge\Runtime\Cache\Paper\c9d5b38a2688c786d430a201e5857f7d.php 第 434 行.
+NOTIC: [8] Undefined index: answer_4 F:\HTML\judge\Runtime\Cache\Paper\c9d5b38a2688c786d430a201e5857f7d.php 第 434 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016503s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
