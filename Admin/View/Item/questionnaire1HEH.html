@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+	<script src="__MODULE__/Public/js/jquery-2.1.4.min.js" ></script>
+	<link  rel="stylesheet" href="__MODULE__/Public/css/bootstrap.min.css"/>
+	<script src="__MODULE__/Public/js/bootstrap.js" ></script>
+	<style type="text/css">
+	
+		p.p1{
+			font-family: 微软雅黑;
+			font-size: 1.1em;
+			margin-top: 10px;
+			margin-bottom: 10px;
+			text-align: center;
+		}
+		p.p2{
+			float: left;
+			font-size: 1.2em;
+			font-family: 黑体;
+			margin-right: 10px;
+		}
+		p.p3{
+			float: left;
+			font-size: 1em;
+			font-family: 黑体;
+			margin-right: 10px;
+		}
+
+		p.p4
+		{
+			float: left;
+			font-size: 1em;
+			font-family: 黑体;
+			text-align: right;
+			color: blue;
+		}
+
+		table.tab1{
+			width: 100%;
+		}
+		#title{
+			float: left;
+			width: 40%;
+			margin-right: 20px;
+		}
+		#number1,#number2,#number3{
+			float: left;
+			width: 50%;
+		}
+		.que
+		{
+			float: left;
+			font-size: 1.2em;
+			padding: 10px;
+		}
+
+		.qu1
+		{
+			float: left;
+			width: 80%;
+		}
+
+		#submit2{
+			width:50%;
+			font-size: 1.2em;
+			font-family: 幼圆;
+			display: none;
+		}
+
+		#select1
+		{
+			margin-left: 20px;
+		}
+	</style>
+</head>
+<body>
+	<div class="row">
+		<div class="col-md-12">
+			<p class="p1">说明：此类新问卷每套问卷仅有选择题和不超过五道问答题组成，适合题量比较少的问卷</p>
+			<hr/>
+			<form action="__MODULE__/Item/make" method="post" id="submit1">
+				<div class="form-group container">
+				    <p class="p2">请输入问卷标题</p><input type="text" class="form-control" name="title" id="title" placeholder="请输入标题">
+				    <p class="p4" id="p4"><span class="glyphicon glyphicon-asterisk"></span>此项必填</p><br/><br/>
+				</div>
+				
+					<table class="tab1">
+						<tr>
+				   	 		<td width="25%"><p class="p3">选择题题数</p><input type="text" name="number1" id="number1"></td>
+				    		<td width="25%"><p class="p3">选项个数</p><input type="text" name="number2" id="number2"></td>
+				    		<td width="25%"><p class="p3">简答题个数</p><input type="text"  name="number3" id="number3"></td>
+				    		<td width="15%"><p class="p4" id="tabp4"><span class="glyphicon glyphicon-asterisk"></span>前两项必填</p></td>
+				    		<td width="10%" align="right"><a href="#" id="taba1"><u>确定</u></a></td>
+				    	</tr>
+				    </table>
+				    <br/><br/>
+				    	<div style="border-top:1px dashed rgba(0, 0, 0, 0.16);"></div>
+				    <br/>
+				    <div id="add">
+				    	
+				    </div>
+				    <center>
+				    	<input type="submit" name="submit2" id="submit2" class="btn btn-success" value="确认创建">
+				    </center>
+			</form>
+		</div>
+	</div>
+
+
+	<script src="__MODULE__/Public/js/addLoadEvent.js" ></script>
+	<script src="__MODULE__/Public/js/question1.js" ></script>
+</body>
+</html>

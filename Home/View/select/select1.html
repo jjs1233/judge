@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>选择问卷</title>
+	<meta http-equiv="Content-TYPE" content="text/html;charset=utf-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="__PUBLIC__/js/jquery-2.1.4.min.js" ></script>
+	<link  rel="stylesheet" href="__PUBLIC__/css/bootstrap.css"/>
+	<script src="__PUBLIC__/js/bootstrap.js" ></script>
+
+	<style type="text/css">
+
+		body{
+			background-image: url(__PUBLIC__/001.jpg);
+			background-repeat: no-repeat;
+			background-size: cover;
+		}
+
+		#body.col-md-10{
+			height: auto;
+			background-color: white;
+			margin-top: 1%;
+		}
+
+		#top.col-md-12{
+			height: auto;
+			background-color: white;
+		}
+
+		#nav.navbar{
+			float: right;
+		}
+
+
+		#topp.col-md-12{
+			height: auto;
+			background-color: white;
+		}
+
+		#content.col-md-12{
+			height: auto;
+			background-color: white;
+			margin-top: 5%;
+			margin-bottom: 10%;
+		}
+
+		
+
+		@media screen and (max-width: 768px){
+			 p.p1{
+				font-family: 华文楷体;
+				font-size: 10px;
+				color: black;
+			}
+
+
+			p.p2{
+				font-family: 华文细黑;
+				font-size: 10px;
+				color: black;
+			}
+		}
+
+
+		@media screen and (min-width: 768px){
+			 p.p1{
+				font-family: 华文楷体;
+				font-size: 15px;
+				color: black;
+			}
+
+
+			p.p2{
+				font-family: 华文细黑;
+				font-size: 15px;
+				color: black;
+			}
+		}
+
+
+		@media screen and (min-width: 992px){
+			 p.p1{
+				font-family: 华文楷体;
+				font-size: 18px;
+				color: black;
+			}
+
+			p.p2{
+				font-family: 华文细黑;
+				font-size: 18px;
+				color: black;
+			}
+		}
+
+		@media screen and (min-width: 1200px){
+			 p.p1{
+				font-family: 华文楷体;
+				font-size: 18px;
+				color: black;
+			}
+
+
+			p.p2{
+				font-family: 华文细黑;
+				font-size: 18px;
+				color: black;
+			}
+		}
+
+
+
+		a.a1:link{
+				color: black;
+				text-decoration: none;
+			}
+
+		a.a1:visited{
+			text-decoration:none; 
+			color:black;
+		}
+
+		a.a1:hover{
+			text-decoration:underline; 
+			color:blue;
+		}
+
+		a.a1:active{
+			text-decoration:none; 
+			color:black;
+		}
+
+		
+
+	</style>
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-10 col-sm-10 col-xs-10 col-lg-10" id="body">
+				<div class="column">
+					<div class="col-md-12 col-sm-12 col-xs-12 col-lg-12" id="top">
+							<!--下拉式-->
+							<nav class="navbar" id="nav">
+					   			<div>
+					      			<ul class="nav navbar-nav">
+										
+										<li class="dropdown" >
+										    <a href="#" class="dropdown-toggle" data-toggle="dropdown"> 
+										        <span class="glyphicon glyphicon-user"></span>
+										        <php>echo $_SESSION['username'];</php>
+										            <b class="caret"></b>
+										    </a>
+										 	<ul class="dropdown-menu">
+										        <li><a href="{:U('Home/Land/land','','')}" onclick="return confirm('确定退出吗？')">退出</a></li>
+										              
+										    </ul>
+
+										</li>
+									</ul>
+								</div>
+							</nav>
+					</div>
+
+					<div class="col-md-12 col-sm-12 col-xs-12 col-lg-12" id="topp">
+						<p class="p1">
+							<span class="glyphicon glyphicon-chevron-right"></span><span class="glyphicon glyphicon-chevron-right"></span>&nbsp&nbsp请选择您要进行的测试 
+						</p>
+					</div>
+					<div class="col-md-12 col-sm-12 col-xs-12 col-lg-12" id="content">
+						<p class="p2">
+							<a href="__APP__/Paper/Paper/Paper" class="a1"><span class="glyphicon glyphicon-asterisk"></span>&nbsp&nbsp
+							例题</a>
+						</p>
+					</div>
+
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

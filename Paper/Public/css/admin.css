@@ -1,0 +1,132 @@
+body{
+			background-color: rgb(245,245,245);
+		}
+		#title{
+			height: 45px;
+			background-color:rgba(2, 115, 191, 0.8);
+			border-bottom: 1px solid rgba(4, 3, 84, 0.45);
+		}
+
+			#ttitle{
+				height: 45px;
+				margin-top: 5px;
+				font-family: 幼圆;
+				font-size: 1.2em;
+				font-weight: bold;
+				color: white;
+			}
+
+			#tttitle{
+				 font-size:1.8em;
+				 font-weight: normal;
+			}
+
+			#user{
+				height: 45px;
+				font-family: 幼圆;
+				font-size: 1em;
+				text-align: right;
+				padding: 20px;
+				color: white;
+				font-weight: bold;
+			}
+
+			#top{
+				height:auto;
+				margin-top: 20px;
+				border-bottom:3px solid rgba(51, 137, 195, 0.62);
+
+			}
+
+				#have{
+					height: auto;
+					background-color:rgba(51, 137, 195, 0.62);
+					border-radius: 5px 5px 0 0;
+					box-shadow: 3px -1px 10px 2px rgba(0, 0, 0, 0.73);
+					text-align: center;
+					font-size: 1.3em;
+					font-family: 幼圆;
+					padding: 0.3em;
+					margin-right: 8px;
+					border: 1px solid rgba(14, 101, 158, 0.2); 
+				}
+
+				#nothave{
+					height: auto;
+					text-align: center;
+					font-size: 1.3em;
+					font-family: 幼圆;
+					padding: 0.3em;
+					background-color:rgba(0,0,0,0.02);
+					border-radius: 5px 5px 0 0;
+					border: 1px solid transparent; 
+				}
+
+			#left{
+				height: 1000px;
+				padding:0px;
+				margin: 0px;
+			}
+				#target1{
+					width:100%;
+					height:auto;
+				}
+
+			#right{
+				height: 1200px;
+				background-color: white;
+				background-image: url(Pic/002.jpg);
+				background-repeat: no-repeat;
+				background-size: cover;
+			}
+
+			#active1{
+				  color: #555;
+				  cursor: default;
+				  background-color: yellow;
+				  border: 1px solid #ddd;
+				  border-bottom-color: transparent;
+			}
+
+			a.a1:link{
+				color: white;
+				text-decoration: none;
+			}
+
+			a.a1:visited{
+				text-decoration:none; 
+				color:white;
+			}
+
+			a.a1:hover{
+				text-decoration:underline; 
+				color:orange;
+			}
+
+			a.a1:active{
+				text-decoration:none; 
+				color:white;
+			}
+
+			a.a2:link{
+				color: blue;
+				text-decoration: none;
+			}
+
+			a.a2:visited{
+				text-decoration:none; 
+				color:blue;
+			}
+
+			a.a2:hover{
+				text-decoration:underline; 
+				color:orange;
+			}
+
+			a.a2:active{
+				text-decoration:none; 
+				color:blue;
+			}
+
+			
+			

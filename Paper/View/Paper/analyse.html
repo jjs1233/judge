@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>{$title}</title>
+	<meta http-equiv="Content-TYPE" content="text/html;charset=utf-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="__PUBLIC__/js/jquery-2.1.4.min.js" ></script>
+	<link  rel="stylesheet" href="__PUBLIC__/css/bootstrap.css"/><!--rgba(238,239,241,1);-->
+	<script src="__PUBLIC__/js/bootstrap.js" ></script>
+	<style type="text/css">
+		
+		body{
+			background-color: rgba(239, 246, 250, 0.56);
+			height: auto;
+		}
+		
+		@media screen and (max-width: 768px){
+			#body.col-xs-12{
+				height: auto;
+			}
+
+			#title.col-xs-12{
+				height:auto;
+				font-size: 12px;
+				font-family: 微软雅黑;
+				background-color: rgba(246,246,246,1);
+				margin-top: 15px;
+				line-height:12px; 
+			}
+
+			#content.col-xs-12{
+				height: auto;
+				font-family: 微软雅黑;
+				background-color: rgba(255,255,255,1); 
+			}
+			#hrr{
+				width: 100%;
+				height: auto;
+				border: 2px solid rgba(204,204,204,1);
+			}
+
+			#select{
+				color: #828282;
+				
+				font-family: 黑体;
+				font-size: 20px;
+			}
+
+			#tab1{
+				width: 100%;
+				font-size: 20px;
+			}
+
+			
+		}
+		@media screen and (min-width: 768px){
+			#body.col-sm-12{
+				height: auto;
+			}
+
+			#title.col-sm-12{
+				height: auto;
+				font-size: 20px;
+				font-family: 微软雅黑;
+				background-color: rgba(246,246,246,1);
+				margin-top: 15px;
+				line-height:12px; 
+			}
+
+			#content.col-sm-12{
+				height: auto;
+				font-family: 微软雅黑;
+				background-color: rgba(255,255,255,1); 
+			}
+			#hrr{
+				width: 100%;
+				height: auto;
+				border: 2px solid rgba(204,204,204,1);
+			}
+
+			#select{
+				color: #828282;
+				
+				font-family: 黑体;
+				font-size: 35px;
+			}
+
+			#tab1{
+				width: 100%;
+				font-size: 20px;
+			}
+
+			
+		}
+		@media screen and (min-width: 992px){
+			#body.col-md-10{
+				height: auto;
+			}
+
+			#title.col-md-12{
+				height: auto;
+				font-size: 16px;
+				font-family: 微软雅黑;
+				background-color: rgba(246,246,246,1);
+				margin-top: 15px;
+				line-height:12px; 
+			}
+
+			#content.col-md-12{
+				height: auto;
+				font-family: 微软雅黑;
+				background-color: rgba(255,255,255,1); 
+				margin-bottom: 50px;
+			}
+
+			p.p1{
+				color: #5B5B5B;
+				text-align: right;
+				font-size: 16px;
+				font-family: 黑体;
+			}
+
+			#hrr{
+				width: 100%;
+				height: auto;
+				border: 1px solid rgba(204,204,204,1);
+			}
+
+			#select{
+				color: #828282;
+				
+				font-family: 黑体;
+				font-size: 17px;
+			}
+
+			#img.col-lg-12{
+				height: 200px;
+				background-image: url(__PUBLIC__/012.jpg);
+				background-size: 100% 100%;
+				background-repeat: no-repeat;
+			}
+
+			#tab1{
+				width: 95%;
+				font-size: 15px;
+			}
+		}
+		@media screen and (min-width: 1200px){
+			#body.col-lg-10{
+				height: auto;
+
+
+
+			}
+
+			#title.col-lg-12{
+				height: auto;
+				font-size: 16px;
+				font-family: 微软雅黑;
+				background-color: rgba(246,246,246,1);
+				margin-top: 0px;
+				line-height:12px; 
+				border:1px solid rgba(0,0,0,0.1);
+			}
+
+			#content.col-lg-12{
+				height: auto;
+				font-family: 微软雅黑;
+				background-color: rgba(255,255,255,1); 
+				border-left:1px solid rgba(0,0,0,0.12);
+				border-right:1px solid rgba(0,0,0,0.12);
+				border-bottom:1px solid rgba(0,0,0,0.12);
+				margin-bottom: 50px;
+
+			}
+
+			p.p1{
+				color: #5B5B5B;
+				text-align: right;
+				font-size: 16px;
+				font-family: 黑体;
+			}
+
+			#hrr{
+				width: 100%;
+				height: auto;
+				border: 1px solid rgba(204,204,204,1);
+			}
+
+			#select{
+				color: #828282;
+				font-family: 黑体;
+				font-size: 17px;
+			}
+
+			#img.col-lg-12{
+				height: 200px;
+				background-image: url(__PUBLIC__/012.jpg);
+				background-size: 100% 100%;
+				background-repeat: no-repeat;
+			}
+
+			#tab1{
+				width: 80%;
+				font-size: 16px;
+			}
+		}
+
+
+		a.a1:link{
+				color: #5B5B5B;
+				text-decoration: none;
+			}
+
+		a.a1:visited{
+			text-decoration:none; 
+			color: #5B5B5B;
+		}
+
+		a.a1:hover{
+			text-decoration:underline; 
+			color:orange;
+		}
+
+		a.a1:active{
+			text-decoration:none; 
+			color: #5B5B5B;
+		}
+
+		h3.hh1{
+			text-align: center;
+			color: #5B5B5B;
+		}
+		h1.hh1{
+			text-align: center;
+			color: #5B5B5B;
+		}
+
+		
+	</style>
+</head>
+<body>
+	
+		<div class="row">
+			<div class="col-md-1 col-lg-1 col-xs-0 col-sm-0"></div>
+			<div class="col-md-10 col-lg-10 col-xs-12 col-sm-12" id="body">
+				<div class="column">
+					<div class="col-md-12 col-lg-12" id="img"></div>
+					<div class="col-md-12 col-lg-12 col-xs-12 col-sm-12" id="title">
+						<br/>
+						<a href="__APP__/Home/Land/land" class="a1">登陆</a>
+						<span class="glyphicon glyphicon-play" style="color: #5B5B5B;"></span>
+						<a href="#" class="a1">选择问卷</a>
+						<span class="glyphicon glyphicon-play" style="color: #5B5B5B;"></span>
+						小测试：这里是题目
+						<br/><br/>
+					</div>
+					<div class="col-md-12 col-lg-12 col-xs-12 col-sm-12" id="content">
+
+						<span class="visible-xs"><h1 class="hh1">学生心理健康测试</h1></span>
+						<span class="visible-sm"><h1 class="hh1">学生心理健康测试</h1></span>
+						<span class="visible-md"><h3 class="hh1">学生心理健康测试</h3></span>
+						<span class="visible-lg"><h3 class="hh1">学生心理健康测试</h3></span>
+
+						<p class="p1">测试时间：120分钟&nbsp</p></span>
+						<p class="p1">题数：{$count}&nbsp</p></span>
+						
+
+						<span class="visible-md"><br/></span>
+						<span class="visible-lg"><br/></span>
+							<center>
+							<table class="table table-bordered" id="tab1">
+							   <caption>测试结果</caption>
+							   <tbody> 
+							      <tr>
+							         <th>学号</th>
+							         <td>{$person}</td>
+							         <th>成绩</th>
+							         <td>{$grade}</td>
+							      </tr>
+							      <tr>
+							         <th>答对题数</th>
+							         <td>{$person.0.right}</td>
+							         <th>答错题数</th>
+							         <td>{$count-$person.0.right}</td>
+
+							      </tr>
+							      <tr>
+							         <th>答题时间</th>
+							         <td>60分钟</td>
+							         <th>正确率</th>
+							         <td>
+							         <?php 
+							         echo round($person[0]['right']/$count*100,2).'%'; 
+							         ?></td>
+							      </tr>
+							   </tbody>
+							</table>
+							</center>
+						<div id="hrr"></div>
+						<span class="visible-md"><br/></span>
+						<span class="visible-lg"><br/></span>
+						<div class="panel panel-default" id="select">
+						<!-- <foreach name='question' item='v'>
+						<if condition="$result[$key] eq $right[$key]">
+								 <div class="panel-heading"><font color="green">
+						        问题
+						        {$key+1}:
+						        {$v.question}<span class="glyphicon glyphicon-ok"></span>
+						        </font>	&nbsp&nbsp正确答案:{$str.$right[$key]}
+						  		 </div>
+									<php>
+       							 if($v["answer"][0]!=NULL)
+        		 echo "	<div class='panel-body'>
+						      <input type='radio' name='num_".$v['id']."' value='1'>".$v["answer"][0]."
+						</div>";
+         							</php>
+         							<php>
+       							 if($v["answer"][1]!=NULL)
+        		 echo "	<div class='panel-body'>
+						      <input type='radio' name='num_".$v['id']."' value='2'>".$v["answer"][1]."
+						</div>";
+         							</php>
+         								<php>
+       							 if($v["answer"][2]!=NULL)
+        		 echo "	<div class='panel-body'>
+						      <input type='radio' name='num_".$v['id']."' value='3'>".$v["answer"][2]."
+						</div>";
+         							</php>
+         								<php>
+       							 if($v["answer"][3]!=NULL)
+        		 echo "	<div class='panel-body'>
+						      <input type='radio' name='num_".$v['id']."' value='4'>".$v["answer"][3]."
+						</div>";
+         							</php>
+         							<php>
+       							 if($v["answer"][4]!=NULL)
+        		 echo "	<div class='panel-body'>
+						      <input type='radio' name='num_".$v['id']."' value='4'>".$v["answer"][4]."
+						</div>";
+         							</php>
+         							<else/>
+         							<div class="panel-heading"><font color="red">
+						        问题
+						        {$key+1}:
+						        {$v.question}<span class="glyphicon glyphicon-remove"></span></font>	&nbsp&nbsp正确答案:{$str.$right[$key]}	 
+						  		 </div>
+									<php>
+       							 if($v["answer"][0]!=NULL)
+        		 echo "	<div class='panel-body'>
+						      <input type='radio' name='num_".$v['id']."' value='1'>".$v["answer"][0]."
+						</div>";
+         							</php>
+         							<php>
+       							 if($v["answer"][1]!=NULL)
+        		 echo "	<div class='panel-body'>
+						      <input type='radio' name='num_".$v['id']."' value='2'>".$v["answer"][1]."
+						</div>";
+         							</php>
+         								<php>
+       							 if($v["answer"][2]!=NULL)
+        		 echo "	<div class='panel-body'>
+						      <input type='radio' name='num_".$v['id']."' value='3'>".$v["answer"][2]."
+						</div>";
+         							</php>
+         								<php>
+       							 if($v["answer"][3]!=NULL)
+        		 echo "	<div class='panel-body'>
+						      <input type='radio' name='num_".$v['id']."' value='4'>".$v["answer"][3]."
+						</div>";
+         							</php>
+         							</php>
+         								<php>
+       							 if($v["answer"][4]!=NULL)
+        		 echo "	<div class='panel-body'>
+						      <input type='radio' name='num_".$v['id']."' value='4'>".$v["answer"][4]."
+						</div>";
+         							</php>
+         							</if>
+								</foreach> -->
+						
+						<span class="visible-md"><br/></span>
+						<span class="visible-lg"><br/></span>
+						
+
+					</div>
+				</div>
+			</div>
+		</div>
+	
+	
+</body>
+</html>

@@ -1,0 +1,10 @@
+<?php 
+	$a=dirname(__FILE__);
+	define('LOCAL',$a);
+	define('TITLE_NUM',10);
+	define('TITLE_NAME','问卷调查');
+	define('TITLE_KEMU','bank');
+	define('APP_DEBUG',true);
+	define('SITE_PATH',"http://localhost/th/test/");
+	require('../ThinkPHP/ThinkPHP.php');
+?>

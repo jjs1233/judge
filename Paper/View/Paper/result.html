@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+	<script src="__MODULE__/Public/js/jquery-2.1.4.min.js" ></script>
+	<link  rel="stylesheet" href="__MODULE__/Public/css/bootstrap.min.css"/>
+	<script src="__MODULE__/Public/js/bootstrap.js" ></script>
+	<style type="text/css">
+		body
+		{
+			background-color: rgba(0, 126, 255, 0.12);
+			background-size: cover;
+			background-repeat: no-repeat;
+		}
+		@media screen and (max-width: 768px){
+			#top{
+				background-color: white;
+				margin-bottom:10%;
+				border-bottom:1px solid rgba(0, 0, 0, 0.22);
+
+			}
+			#container{
+				height: auto;
+				margin-top: 20%;
+				padding: 10px;
+				background-color: white;
+				border-radius: 20px;
+				border:1px solid rgba(0, 0, 0, 0.22);
+
+			}
+
+
+			p.p0{
+				padding-top: 5%;
+				padding-bottom:20px;
+				font-size: 3.3em;
+				font-weight: 900;
+				text-align: center;
+			}
+			p.p1{
+				padding-top:1%;
+				padding-left:1%;
+				font-size:2.3em;
+				font-family: 微软雅黑;
+				font-weight: bolder;
+			}
+			
+			#content{
+				border-bottom:1px dashed rgba(0, 0, 0, 0.42);
+				padding: 2%;
+			}
+		
+
+			#button1{
+				width:35%;
+				margin-top: 10%;
+				font-size: 3em;
+				padding-top:3%;
+				padding-bottom:3%;
+				margin-left: 5%;
+				margin-right: 5%;
+				border-radius: 15px;
+			}
+
+			#bt{
+				margin-top:50px;
+				text-align: center;
+			}
+			#txt1{
+				padding-left: 8%;
+			}
+		}
+		@media screen and (min-width: 768px){
+			#top{
+				background-color: white;
+				margin-bottom:10%;
+				border-bottom:1px solid rgba(0, 0, 0, 0.22);
+
+			}
+
+
+			#container{
+				height: auto;
+				background-color: white;
+				border-radius: 25px;
+				border:1px solid rgba(0, 0, 0, 0.42);
+				font-size: 3em;
+				font-weight: bolder;
+				margin-left: 4%;
+			}
+			p.p0{
+				padding-top: 5%;
+				padding-bottom:20px;
+				font-size: 3.3em;
+				font-weight: 900;
+				text-align: center;
+			}
+			p.p1{
+				padding-top:1%;
+				padding-left:1%;
+				font-size:2.3em;
+				font-family: 微软雅黑;
+				font-weight: bolder;
+			}
+			
+			#content{
+				border-bottom:1px dashed rgba(0, 0, 0, 0.42);
+				padding: 2%;
+			}
+		
+
+			#button1{
+				width:35%;
+				margin-top: 10%;
+				font-size: 3em;
+				padding-top:3%;
+				padding-bottom:3%;
+				margin-left: 5%;
+				margin-right: 5%;
+				border-radius: 15px;
+			}
+
+			#bt{
+				margin-top:50px;
+				text-align: center;
+			}
+			#txt1{
+				padding-left: 8%;
+			}
+			
+		}
+		@media screen and (min-width: 992px){
+			
+		}
+		@media screen and (min-width: 1200px){
+			
+		}
+
+	</style>
+</head>
+<body>
+	<div class="column">
+		<div class="col-sm-12 col-xs-12" id="top">
+			<p class="p0">{$title.name}</p>
+		</div>
+		<div class="col-sm-12 col-xs-12">
+			<div class="column">
+				<div class="col-sm-12 col-xs-12">
+					<p class="p1">>>您的成绩是</p>
+					
+				</div>
+				<div class="col-sm-11 col-xs-11" id="container">
+					<div class="column">
+						<foreach name='transl' item='v'>
+						<div class="col-sm-12 col-xs-12" id="content">
+							<div class="row">
+								<div class="col-sm-6 col-xs-6" id="txt1">{$v}</div>
+								<div class="col-sm-6 col-xs-6">{$user[$key]}</div>
+							</div>
+						</div>
+						</foreach>
+					</div>	
+				</div>
+				<div class="col-sm-12 col-xs-12" id="bt">
+					<if condition="$super == 1">
+					<a href="__MODULE__/Paper/Super/usernumber/{$user.usernumber}/username/{$user.username}/academy/{$user.academy}" id="button1" class="btn btn-success">再做一次</a>
+					<else />
+					<a href="__MODULE__/Paper/Paper/usernumber/{$user.usernumber}/username/{$user.username}" id="button1" class="btn btn-success">再做一次</a>
+					</if>				
+					<a href="__MODULE__/Paper/finish" id="button1" class="btn btn-success">确认</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+</body>
+</html>

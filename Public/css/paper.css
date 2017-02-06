@@ -1,0 +1,422 @@
+body{
+			background-color: rgb(247,247,247); 
+			height: auto;
+			padding: 0px;
+		}
+		
+		@media screen and (max-width: 768px){
+			#body.col-xs-12{
+				height: auto;
+				margin-top: 0px;
+			}
+
+			#img{
+				height:auto;
+				font-size: 15px;
+				font-family: 微软雅黑;
+				background-color:rgb(38,149,208);
+				line-height:12px;
+				padding-top: 1px;
+				padding-bottom: 5px;
+				margin-top: 0px;
+			}
+
+			#title.col-xs-12{
+				height:auto;
+				font-size: 15px;
+				font-family: 微软雅黑;
+			 
+			}
+
+			#land.visible-xs{
+				font-size: 15px;
+				margin-top: 20px;
+				font-family: 华文细黑;
+			}
+			#content.col-xs-12{
+				height: auto;
+				font-family: 微软雅黑;
+				background-color: rgba(247,247,247,1); 
+			}
+			#hrr{
+				width: 100%;
+				height: auto;
+				border: 2px solid rgba(204,204,204,1);
+
+			}
+
+			#select{
+				color: #828282;
+				margin-top: 20px;
+				font-family: 黑体;
+				font-size: 1em;
+				border:none;
+			}
+
+			#t-title{
+				color: black;
+				font-size: 15px;
+				font-family:微软雅黑; 
+			}
+
+			p.p1{
+				font-size: 14px;
+			}
+
+			#headtitle{
+				font-size: 1.1em;
+				background-color:rgb(247,247,247);
+				font-weight: bolder;
+			}
+
+			#headbody{
+				border: 0.05em solid rgba(0,0,0,0.1);
+				color: black;
+				font-weight: bold;
+			}
+
+			#userinput1,#academy{
+				width:90%;
+				font-size: 1.2em;
+				height: 2.6em;
+				margin-bottom: 20px;
+			}
+			#userinput2{
+				width:90%;
+				font-size: 1.2em;
+				height: 2.6em;
+				margin-bottom: 20px;
+			}
+			#checkbutton,#submitbutton{
+				width: 45%;
+			}
+		}
+		@media screen and (min-width: 768px){
+			#body.col-sm-12{
+				height: auto;
+			}
+
+			#img{
+				height:auto;
+				font-size: 15px;
+				font-family: 微软雅黑;
+				background-color:rgb(38,149,208);
+				line-height:12px;
+				padding-top: 1px;
+				padding-bottom: 5px;
+			}
+
+			#title.col-xs-12{
+				height:auto;
+				font-size: 15px;
+				font-family: 微软雅黑;
+			 	padding: 10px;
+			}
+
+			#land.visible-sm{
+				font-size: 15px;
+				margin-top: 20px;
+				font-family: 华文细黑;
+				margin-bottom: 30px;
+			}
+
+			#content.col-sm-12{
+				height: auto;
+				font-family: 微软雅黑;
+				background-color: rgba(247,247,247,1); 
+			}
+			#hrr{
+				width: 100%;
+				height: auto;
+				border: 2px solid rgba(204,204,204,1);
+			}
+
+			#select{
+				color: #828282;
+				margin-top: 20px;
+				font-family: 黑体;
+				font-size: 1em;
+				border:none;
+			}
+
+			#t-title{
+				color: black;
+				font-size: 16px;
+				font-family:微软雅黑; 
+			}
+
+			p.p1{
+				color: #5B5B5B;
+				text-align: left;
+				font-size: 18px;
+				font-family: 黑体;
+			}
+
+			#headtitle{
+				font-size: 1.1em;
+				background-color:rgb(247,247,247);
+				font-weight: bolder;
+			}
+
+			#headbody{
+				border: 0.05em solid rgba(0,0,0,0.1);
+				color: black;
+				font-weight: bold;
+			}
+
+			#userinput1,#academy{
+				width:100%;
+				font-size: 1.2em;
+				height: 2.5em;
+				margin: 5px;
+			}
+
+			#userinput2{
+				width:100%;
+				font-size: 1.2em;
+				height: 2.5em;
+				margin: 5px;
+			}
+			#checkbutton,#submitbutton{
+				width: 30%;
+			}
+		}
+		@media screen and (min-width: 992px){
+			#body.col-md-10{
+				height: auto;
+				position: absolute;
+				left: 50%;
+				transform: translate(-50%,0%);
+			}
+
+			#title.col-md-12{
+				height: auto;
+				font-size: 16px;
+				font-family: 微软雅黑;
+				background-color: rgba(246,246,246,1);
+				margin-top: 0px;
+				line-height:12px; 
+				border:1px solid rgba(0,0,0,0.1);
+				color: rgba(76, 76, 76, 0.78);
+
+
+
+			}
+
+			#content.col-md-12{
+				height: auto;
+				font-family: 微软雅黑;
+				background-color: rgba(255,255,255,1); 
+				border-left:1px solid rgba(0,0,0,0.12);
+				border-right:1px solid rgba(0,0,0,0.12);
+				border-bottom:1px solid rgba(0,0,0,0.12);
+				margin-bottom: 50px;
+
+			}
+
+			p.p1{
+				color: #5B5B5B;
+				text-align: right;
+				font-size: 16px;
+				font-family: 黑体;
+			}
+
+			#hrr{
+				width: 100%;
+				height: auto;
+				border: 1px solid rgba(204,204,204,1);
+			}
+
+			#select{
+				color: #828282;
+				
+				font-family: 黑体;
+				font-size: 1em;
+			}
+
+			#img.col-md-12{
+				height: 200px;
+				background-image: url(../012.jpg);
+				background-size: 100% 100%;
+				background-repeat: no-repeat;
+			}
+
+			#headtitle{
+				font-size: 1.1em;
+				background-color:rgb(247,247,247);
+				font-weight: normal;
+			}
+
+			#headbody{
+				border: 0.05em solid rgba(0,0,0,0.1);
+				color: black;
+				font-weight: normal;
+			}
+
+			#userinput1,#academy{
+				width:40%;
+				height: 2.3em;
+				float: left;
+				margin-top: 0px;
+				margin-bottom: 0px;
+				margin-left: 10px;
+				margin-right: 10px;
+			}
+
+			#userinput2{
+				width:40%;
+				height: 2.3em;
+				float: left;
+				margin-top: 0px;
+				margin-bottom: 0px;
+				margin-left: 10px;
+				margin-right: 10px;
+			}
+			#checkbutton,#submitbutton{
+				width: 10%;
+			}
+			
+		}
+		@media screen and (min-width: 1200px){
+			#body.col-lg-9{
+				height: auto;
+				  position: absolute;
+				  left: 50%;
+				  transform: translate(-50%,0%);
+
+
+
+			}
+
+			#title.col-lg-12{
+				height: auto;
+				font-size:1em;
+				font-family: 黑体;
+				background-color: rgba(246,246,246,1);
+				margin-top: 0px;
+				line-height:12px; 
+				border:1px solid rgba(0,0,0,0.1);
+				color: rgba(76, 76, 76, 0.78);
+
+			
+			}
+
+			#content.col-lg-12{
+				height: auto;
+				font-family: 微软雅黑;
+				background-color: rgba(255,255,255,1); 
+				border-left:1px solid rgba(0,0,0,0.12);
+				border-right:1px solid rgba(0,0,0,0.12);
+				border-bottom:1px solid rgba(0,0,0,0.12);
+				margin-bottom: 50px;
+
+
+			}
+
+			p.p1{
+				color: #4c4c4c;
+				text-align: right;
+				font-size: 16px;
+				font-family: 黑体;
+			}
+
+			#hrr{
+				width: 100%;
+				height: auto;
+				border: 1px solid rgba(204,204,204,1);
+			}
+
+			#select{
+				color: #828282;
+				font-family: 黑体;
+				font-size: 1em;
+			}
+
+			#img.col-lg-12{
+				height: 200px;
+				background-image: url(../012.jpg);
+				background-size: 100% 100%;
+				background-repeat: no-repeat;
+			}
+
+			#headtitle{
+				font-size: 1.1em;
+				background-color:rgb(247,247,247);
+				font-weight: normal;
+			}
+
+			#headbody{
+				border: 0.05em solid rgba(0,0,0,0.1);
+				color: black;
+				font-weight: normal;
+			}
+
+			#userinput1,#academy{
+				width:40%;
+				height: 2.3em;
+				float: left;
+				margin-top: 0px;
+				margin-bottom: 0px;
+				margin-left: 10px;
+				margin-right: 10px;
+			}
+
+			#userinput2{
+				width:40%;
+				height: 2.3em;
+				float: left;
+				margin-top: 0px;
+				margin-bottom: 0px;
+				margin-left: 10px;
+				margin-right: 10px;
+			}
+
+			#checkbutton,#submitbutton{
+				width: 10%;
+			}
+		}
+
+
+		a.a1:link{
+				color: #5B5B5B;
+				text-decoration: none;
+			}
+
+		a.a1:visited{
+			text-decoration:none; 
+			color: #5B5B5B;
+		}
+
+		a.a1:hover{
+			text-decoration:underline; 
+			color:orange;
+		}
+
+		a.a1:active{
+			text-decoration:none; 
+			color: #5B5B5B;
+		}
+
+		h2.hh1{
+			text-align: center;
+			color: #4c4c4c;
+			font-family: 幼圆;
+		}
+		h3.hh2{
+			text-align: center;
+			color: white;
+			font-family: 幼圆;
+		}
+
+
+
+.school{
+	margin-left: 10px;
+	font-weight: bold;
+	font-size: 1.2em;
+}
+
+.modal-body p{
+	margin-left: 20px;
+	font-size: 1.5em;
+}

@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>选择问卷</title>
+	<meta http-equiv="Content-TYPE" content="text/html;charset=utf-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="__PUBLIC__/js/jquery-2.1.4.min.js" ></script>
+	<link  rel="stylesheet" href="__PUBLIC__/css/bootstrap.css"/>
+	<script src="__PUBLIC__/js/bootstrap.js" ></script>
+
+<style type="text/css">
+		body{
+			background-color: #F2F2F2;
+		}
+
+		
+
+		
+
+		#top.col-md-12{
+			height: auto;
+			background-color: white;
+		}
+
+		#nav.navbar{
+			float: right;
+		}
+
+		#title.col-md-12{
+			height: auto;
+			background-color: white;
+			font-family: 华文新魏;
+
+		}
+
+		#content.col-md-12{
+			height: auto;
+			background-color: white;
+			border:1px dotted black;
+			margin-bottom: 2%;
+			border-radius: 20px;
+			margin-top: 10px;
+		}
+
+
+		
+
+
+		@media screen and (max-width: 768px){
+
+			#img.col-md-12{
+				margin-top: 10px;
+				margin-bottom: 3px;
+				height: 150px;
+				border:1px solid rgba(0, 0, 0, 0.41);
+				background-image: url(__PUBLIC__/003.jpg);
+				background-repeat: no-repeat;
+				background-size: 100% 100%;
+				border-radius: 30px;
+				box-shadow: 2px -1px 10px 2px  grey;
+
+			}
+
+
+			#body.col-md-8{
+				height: auto;
+				margin-top: 40px;
+				background-color: white;
+				border-top:1px solid rgba(0, 0, 0, 0.3);
+				border-left:1px solid rgba(0, 0, 0, 0.3);
+				border-right:1px solid rgba(0, 0, 0, 0.3);
+				border-bottom:1px solid rgba(0, 0, 0, 0.3);
+				border-radius: 30px;
+				box-shadow: 6px 10px 10px 4px  grey;
+
+			}
+
+
+			p.p1{
+				font-family: 华文楷体;
+				font-size: 14px;
+				color: black;
+			}
+
+			 
+			p.p2{
+				font-family: 华文新魏;
+				font-size: 14px;
+			}
+			
+
+
+		}
+
+
+		@media screen and (min-width: 768px){
+			#img.col-md-12{
+				margin-top: 10px;
+				margin-bottom: 5px;
+				height: 190px;
+				border:1px solid rgba(0, 0, 0, 0.41);
+				background-image: url(__PUBLIC__/003.jpg);
+				background-repeat: no-repeat;
+				background-size: 100% 100%;
+				border-radius: 30px;
+				box-shadow: 2px -1px 10px 2px  grey;
+
+			}
+
+
+			#body.col-md-8{
+				height: auto;
+				margin-top: 30px;
+				background-color: white;
+				border-top:1px solid rgba(0, 0, 0, 0.3);
+				border-left:1px solid rgba(0, 0, 0, 0.3);
+				border-right:1px solid rgba(0, 0, 0, 0.3);
+				border-bottom:1px solid rgba(0, 0, 0, 0.3);
+				border-radius: 30px;
+				box-shadow: 6px 10px 10px 4px  grey;
+
+			}
+
+			p.p1{
+				font-family: 华文楷体;
+				font-size: 16px;
+				color: black;
+			}
+
+			 
+			p.p2{
+				font-family: 华文新魏;
+				font-size: 16px;
+			}
+			 
+
+		}
+
+
+		@media screen and (min-width: 992px){
+
+			#img.col-md-12{
+				margin-top: 10px;
+				margin-bottom: 5px;
+				height: 220px;
+				border:1px solid rgba(0, 0, 0, 0.41);
+				background-image: url(__PUBLIC__/003.jpg);
+				background-repeat: no-repeat;
+				background-size: 100% 100%;
+				border-radius: 30px;
+				box-shadow: 2px -1px 10px 2px  grey;
+
+			}
+
+
+			#body.col-md-8{
+				height: auto;
+				margin-top: 40px;
+				background-color: white;
+				border-top:1px solid rgba(0, 0, 0, 0.3);
+				border-left:1px solid rgba(0, 0, 0, 0.3);
+				border-right:1px solid rgba(0, 0, 0, 0.3);
+				border-bottom:1px solid rgba(0, 0, 0, 0.3);
+				border-radius: 30px;
+				box-shadow: 6px 10px 10px 4px  grey;
+
+			}
+
+			p.p1{
+				font-family: 华文楷体;
+				font-size: 18px;
+				color: black;
+			}
+
+			 
+			p.p2{
+				font-family: 华文新魏;
+				font-size: 18px;
+			}
+			
+
+		
+		}
+
+		@media screen and (min-width: 1200px){
+			#img.col-md-12{
+				margin-top: 12px;
+				margin-bottom: 5px;
+				height: 250px;
+				border:1px solid rgba(0, 0, 0, 0.41);
+				background-image: url(__PUBLIC__/003.jpg);
+				background-repeat: no-repeat;
+				background-size: 100% 100%;
+				border-radius: 30px;
+				box-shadow: 2px -1px 10px 2px  grey;
+			}
+
+
+			#body.col-md-8{
+				height: auto;
+				margin-top: 50px;
+				background-color: white;
+				border-top:1px solid rgba(0, 0, 0, 0.3);
+				border-left:1px solid rgba(0, 0, 0, 0.3);
+				border-right:1px solid rgba(0, 0, 0, 0.3);
+				border-bottom:1px solid rgba(0, 0, 0, 0.3);
+				border-radius: 30px;
+				box-shadow: 6px 10px 10px 4px  grey;
+
+			}
+
+			p.p1{
+				font-family: 华文楷体;
+				font-size: 20px;
+				color: black;
+			}
+
+			 
+			p.p2{
+				font-family: 华文新魏;
+				font-size: 20px;
+			}
+
+	
+		}
+
+
+		a.a1:link{
+				color: black;
+				text-decoration: none;
+			}
+
+		a.a1:visited{
+			text-decoration:none; 
+			color:black;
+		}
+
+		a.a1:hover{
+			text-decoration:underline; 
+			color:blue;
+		}
+
+		a.a1:active{
+			text-decoration:none; 
+			color:black;
+		}
+
+
+	</style>
+</head>
+<body>
+	
+	<div class="container" >
+		
+		<div class="row">
+			<div class="col-md-2 col-sm-2 col-xs-2 col-lg-1"></div>
+			<div class="col-md-8 col-sm-8 col-xs-8 col-lg-10" id="body">
+				<div class="column">
+						<div class="col-md-12 col-sm-12 col-xs-12 col-lg-12" id="img"></div>
+					
+					<div class="col-md-12 col-sm-12 col-xs-12 col-lg-12" id="top">
+							<!--下拉式-->
+							<nav class="navbar" id="nav">
+					   			<div>
+					      			<ul class="nav navbar-nav">
+										
+										<li class="dropdown" >
+										    <a href="#" class="dropdown-toggle" data-toggle="dropdown"> 
+										        <span class="glyphicon glyphicon-user"></span>
+										        <php>echo $_SESSION['username'];</php>
+										            <b class="caret"></b>
+										    </a>
+										    <ul class="dropdown-menu">
+										        <li><a href="{:U('Home/Land/land','','')}" onclick="return confirm('确定退出吗？')">退出本次测试</a></li>
+										        <li><a href="{:U('Home/Land/land','','')}" onclick="return confirm('确定退出吗？')">退出登陆</a></li>
+										              
+										    </ul>
+										 	
+
+										</li>
+									</ul>
+								</div>
+							</nav>
+					</div>
+					<div class="col-md-12 col-sm-12 col-xs-12 col-lg-12" id="title">
+						
+						<h4>欢迎进入江苏师范大学问卷测试系统，您可以根据自己的需求选择一下问卷或试卷进行测试，非管理员者仅可以进行测试，管理员可根据自己需要发起新测试</h4>
+						
+					</div>
+
+					<div class="col-md-12 col-sm-12 col-xs-12 col-lg-12" id="content">
+						<p class="p1">
+							<span class="glyphicon glyphicon-chevron-right"></span>
+							<span class="glyphicon glyphicon-chevron-right"></span>
+							选择需要进行的测试
+						</p>
+						<br/>
+						<!--循环输出测试题目-->
+						<p class="p2">
+							<a class="a1" href="__APP__/Paper/paper/paper"><span class="glyphicon glyphicon-asterisk"></span>&nbsp心理健康测试</a>
+						</p>
+						<!--循环结束-->
+					</div>
+
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

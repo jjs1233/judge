@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>修改问卷</title>
+	<meta http-equiv="Content-TYPE" content="text/html;charset=utf-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="__MODULE__/Public/js/jquery-2.1.4.min.js" ></script>
+	<link  rel="stylesheet" href="__MODULE__/Public/css/bootstrap.css"/>
+	<script src="__MODULE__/Public/js/bootstrap.js" ></script>
+	<style type="text/css">
+		
+		body{
+			background-color:rgba(238,239,241,1); 
+			height: auto;
+		}
+		
+		
+		
+			#body.col-md-10{
+				height: auto;
+				position: absolute;
+				left: 50%;
+				transform: translate(-50%,0%);
+			}
+
+			#title.col-md-12{
+				height: auto;
+				font-size: 1.2em;
+				font-family: 微软雅黑;
+				background-color: rgba(246,246,246,1);
+				margin-top: 0px;
+				line-height:12px; 
+				border:1px solid rgba(0,0,0,0.1);
+				color: rgba(76, 76, 76, 0.98);
+				padding: 14px;
+
+
+			}
+
+			#content.col-md-12{
+				height: auto;
+				font-family: 微软雅黑;
+				background-color: rgba(255,255,255,1); 
+				border-left:1px solid rgba(0,0,0,0.12);
+				border-right:1px solid rgba(0,0,0,0.12);
+				border-bottom:1px solid rgba(0,0,0,0.12);
+				margin-bottom: 50px;
+
+			}
+
+
+			.input0{
+				padding-top: 12px;
+			}
+
+			.input1{
+				text-align: right;
+			}
+
+
+
+			p.p1{
+				color: #5B5B5B;
+				text-align: right;
+				font-size: 16px;
+				font-family: 黑体;
+			}
+
+			#hrr{
+				width: 100%;
+				height: auto;
+				border: 1px solid rgba(204,204,204,1);
+			}
+
+			#select{
+				color: #828282;
+				
+				font-family: 黑体;
+				font-size: 17px;
+			}
+
+			#img.col-md-12{
+				height: 200px;
+				background-image: url(__MODULE__/Public/012.jpg);
+				background-size: 100% 100%;
+				background-repeat: no-repeat;
+			}
+		
+		.t-title{
+			border-top:1px solid black;
+		}
+
+
+		a.a1:link{
+				color: #5B5B5B;
+				text-decoration: none;
+			}
+
+		a.a1:visited{
+			text-decoration:none; 
+			color: #5B5B5B;
+		}
+
+		a.a1:hover{
+			text-decoration:underline; 
+			color:orange;
+		}
+
+		a.a1:active{
+			text-decoration:none; 
+			color: #5B5B5B;
+		}
+
+		.title1{
+			text-align: center;
+			color: #4c4c4c;
+			font-family: 幼圆;
+			font-size: 1.5em;
+			padding-top: 15px;
+		}
+		h3.hh2{
+			text-align: center;
+			color: white;
+			font-family: 幼圆;
+		}
+
+		
+
+		
+	</style>
+</head>
+<body>
+	
+		<div class="row">
+			
+			<div class="col-md-10" id="body">
+				<div class="column">
+					<div class="col-md-12" id="img"></div>
+					<div class="col-md-12" id="title">
+							>>请修改该问卷
+							
+					</div>
+					<form action="__MODULE__/Item/changepaper_post" method="post">
+					<input type="hidden" name='target' value='{$title[0][target]}'>
+					<div class="col-md-12" id="content">
+						<div class="row">
+							<div class="col-md-6 col-md-offset-3">
+								<div class="row">
+									<div class="col-md-2 title1">题目</div>
+									<div class="col-md-10 input0">
+										<input type="text" class="form-control" name="newtitle" value='{$title[0][name]}'>
+									</div>
+								</div>
+							</div>
+						</div>
+						<br/>
+						
+						<div id="hrr"></div>
+						<br/>
+						
+							<div class="panel panel-default" id="select">
+
+
+
+							<foreach name='item' item='v'>
+							<if condition="($v[question_class] eq 1)">
+							   	<div class="panel-heading t-title">
+							   		<div class="row">
+							   			<div class="col-md-1">
+							   				问题{$key+1}:
+							   			</div>
+							   			<div class="col-md-9">
+							   				<input type="text" class="form-control" name="xuanze[{$key}][0]" value='{$v.question}'>
+							   			</div>
+							   			<div class="col-md-2">
+							   				<select name="xuanze[{$key}][1]">
+							   					<option value='{$v.correct}'>正确答案:{$v[newcorrect]}</option>
+							   					<option value="1">A</option>
+							   					<option value="2">B</option>
+							   					<option value="3">C</option>
+							   					<option value="4">D</option>
+							   				</select>
+							   			</div>
+							   		</div>						  		 
+							    </div>
+							    <php>
+							    $i=0;
+							    while(!empty($v[answer][$i])){
+							    $p=answer.$key.$i;
+							    echo "
+								<div class='panel-body input1'>
+							      	<div class='row'>
+							   			<div class='col-md-1'>".
+							   				$zimu[$i].":
+							   			</div>
+							   			<div class='col-md-11'>
+							   				<input type='text' class='form-control' name='xuanze[$key][2][$i]' value='".$v[answer][$i]."'>
+							   			</div>
+							   		</div> 
+								</div>";
+								$i++;
+								}
+								</php>
+								<else/>
+								<div class="panel-heading t-title">
+							   		<div class="row">
+							   			<div class="col-md-1">
+							   				问题{$key+1}:
+							   			</div>
+							   			<div class="col-md-11">
+							   				<input type="text" class="form-control" name="jianda[{$key}][0]" value='{$v.question}'>
+							   			</div>
+							   		</div>						  		 
+							    </div>
+								<div class='panel-body input1'>
+							      	<div class="row">
+							   			<div class="col-md-1">
+							   				答案
+							   			</div>
+							   			<div class="col-md-11">
+							   				<textarea class="form-control" rows="3" name="jianda[{$key}][1]">{$v.answer}</textarea>
+							   			</div>
+							   		</div> 
+								</div>
+							</if>
+							</foreach>
+
+
+
+									 
+								
+							</div>
+
+						
+						<br/>
+						<center>
+							<input type="submit" class="btn btn-success" id="submit1" style="width:20%;" value="提交" >
+							<input type="reset" class="btn btn-success" style="width:20%;" id="res">
+						</center>
+						<br/>
+						<br/>
+					</div>
+					</form>
+				</div>
+			</div>
+		</div>
+		
+	
+	<script type="text/javascript">
+
+	</script>
+</body>
+</html>
