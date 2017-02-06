@@ -22,5 +22,5 @@ ps
 效果图
 ----------
 * 上传问卷![image](https://github.com/jjs1233/judge/blob/master/Public/images/show1.jpg)
-* 问卷管理![image](https://github.com/jjs1233/judge/blob/master/Public/images/show2.jpg)
-* 手机答题页面![image](https://github.com/jjs1233/judge/blob/master/Public/images/show3.jpg)
+* 问卷管理![image](https://github.com/jjs1233/judge/blob/master/Public/images/show2.png)
+* 手机答题页面![image](https://github.com/jjs1233/judge/blob/master/Public/images/show3.png)
