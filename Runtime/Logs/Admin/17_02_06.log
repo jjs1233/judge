@@ -1,33 +1,24 @@
-[ 2017-02-06T19:20:20+08:00 ] ::1 /test/admin/index/index
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
-INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
-INFO: [ app_begin ] --START--
-INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
-INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
-ERR: 非法操作:index
-
-[ 2017-02-06T19:20:49+08:00 ] ::1 /test/admin/index/admin
+[ 2017-02-06T20:09:21+08:00 ] ::1 /judge/admin/index/admin
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
 INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
 INFO: [ app_begin ] --START--
-INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
 INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
 INFO: [ view_parse ] --START--
 INFO: [ template_filter ] --START--
 INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
 INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
-INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019002s ]
-INFO: [ view_parse ] --END-- [ RunTime:0.019002s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013002s ]
 INFO: [ view_filter ] --START--
-INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000500s ]
-INFO: [ view_filter ] --END-- [ RunTime:0.000500s ]
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
 INFO: [ app_end ] --START--
-INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000500s ]
-INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
 
-[ 2017-02-06T19:20:49+08:00 ] ::1 /test/Admin/Public/skin/default/skin.css
+[ 2017-02-06T20:09:22+08:00 ] ::1 /judge/Admin/Public/skin/default/skin.css
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
 INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
@@ -36,19 +27,131 @@ INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
 INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
 ERR: 无法加载控制器:Public
 
-[ 2017-02-06T19:20:49+08:00 ] ::1 /test/admin/index/welcome.html
+[ 2017-02-06T20:09:22+08:00 ] ::1 /judge/Admin/Public/lib/Hui-iconfont/1.0.1/iconfont.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+ERR: 无法加载控制器:Public
+
+[ 2017-02-06T20:09:22+08:00 ] ::1 /judge/Admin/Public/lib/jquery/1.9.1/jquery.min.js
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
 INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
 INFO: [ app_begin ] --START--
 INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
-INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+ERR: 无法加载控制器:Public
+
+[ 2017-02-06T20:09:22+08:00 ] ::1 /judge/Admin/Public/lib/layer/1.9.3/layer.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+ERR: 无法加载控制器:Public
+
+[ 2017-02-06T20:09:22+08:00 ] ::1 /judge/admin/index/welcome.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000501s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
 INFO: [ view_parse ] --START--
 INFO: [ template_filter ] --START--
 INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
 INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
-INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006001s ]
-INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006501s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006501s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-02-06T20:09:46+08:00 ] ::1 /judge/admin/index/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000500s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006501s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000500s ]
+
+[ 2017-02-06T20:09:46+08:00 ] ::1 /judge/admin/index/welcome.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000500s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000501s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000501s ]
+
+[ 2017-02-06T20:09:46+08:00 ] ::1 /judge/Admin/Public/skin/default/skin.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+ERR: 无法加载控制器:Public
+
+[ 2017-02-06T20:09:47+08:00 ] ::1 /judge/admin/index/skin/default/skin.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000501s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000501s ]
+ERR: 非法操作:skin
+
+[ 2017-02-06T20:09:48+08:00 ] ::1 /judge/Admin/Item/look
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+SQL: SHOW COLUMNS FROM `connect` [ RunTime:0.0065s ]
+SQL: SELECT * FROM `connect` ORDER BY id desc  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant open_1 - assumed 'open_1' F:\HTML\judge\Runtime\Cache\Admin\79da793c32a3a2d5bb6f239f9de0b7c3.php 第 181 行.
+NOTIC: [8] Use of undefined constant open_1 - assumed 'open_1' F:\HTML\judge\Runtime\Cache\Admin\79da793c32a3a2d5bb6f239f9de0b7c3.php 第 181 行.
+NOTIC: [8] Use of undefined constant open_1 - assumed 'open_1' F:\HTML\judge\Runtime\Cache\Admin\79da793c32a3a2d5bb6f239f9de0b7c3.php 第 181 行.
+NOTIC: [8] Use of undefined constant open_1 - assumed 'open_1' F:\HTML\judge\Runtime\Cache\Admin\79da793c32a3a2d5bb6f239f9de0b7c3.php 第 181 行.
+NOTIC: [8] Use of undefined constant open_1 - assumed 'open_1' F:\HTML\judge\Runtime\Cache\Admin\79da793c32a3a2d5bb6f239f9de0b7c3.php 第 181 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.043505s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044005s ]
 INFO: [ view_filter ] --START--
 INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000500s ]
 INFO: [ view_filter ] --END-- [ RunTime:0.000500s ]
@@ -56,16 +159,7 @@ INFO: [ app_end ] --START--
 INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000500s ]
 INFO: [ app_end ] --END-- [ RunTime:0.000500s ]
 
-[ 2017-02-06T19:20:50+08:00 ] ::1 /test/admin/index/skin/default/skin.css
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
-INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
-INFO: [ app_begin ] --START--
-INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
-INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
-ERR: 非法操作:skin
-
-[ 2017-02-06T19:20:51+08:00 ] ::1 /test/Admin/Item/look
+[ 2017-02-06T20:09:49+08:00 ] ::1 /judge/Admin/Item/change
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
 INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
@@ -73,65 +167,11 @@ INFO: [ app_begin ] --START--
 INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
 INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
 SQL: SHOW COLUMNS FROM `connect` [ RunTime:0.0025s ]
-SQL: SELECT * FROM `connect` ORDER BY id desc  [ RunTime:0.0000s ]
-INFO: [ view_parse ] --START--
-INFO: [ template_filter ] --START--
-INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
-INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
-NOTIC: [8] Use of undefined constant open_1 - assumed 'open_1' F:\HTML\test\Runtime\Cache\Admin\f8c305c0664b4708833586d221876a56.php 第 181 行.
-NOTIC: [8] Use of undefined constant open_1 - assumed 'open_1' F:\HTML\test\Runtime\Cache\Admin\f8c305c0664b4708833586d221876a56.php 第 181 行.
-NOTIC: [8] Use of undefined constant open_1 - assumed 'open_1' F:\HTML\test\Runtime\Cache\Admin\f8c305c0664b4708833586d221876a56.php 第 181 行.
-NOTIC: [8] Use of undefined constant open_1 - assumed 'open_1' F:\HTML\test\Runtime\Cache\Admin\f8c305c0664b4708833586d221876a56.php 第 181 行.
-NOTIC: [8] Use of undefined constant open_1 - assumed 'open_1' F:\HTML\test\Runtime\Cache\Admin\f8c305c0664b4708833586d221876a56.php 第 181 行.
-INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019503s ]
-INFO: [ view_parse ] --END-- [ RunTime:0.019503s ]
-INFO: [ view_filter ] --START--
-INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000500s ]
-INFO: [ view_filter ] --END-- [ RunTime:0.000500s ]
-INFO: [ app_end ] --START--
-INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000500s ]
-INFO: [ app_end ] --END-- [ RunTime:0.000500s ]
-
-[ 2017-02-06T19:20:53+08:00 ] ::1 /test/Admin/Item/change
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
-INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
-INFO: [ app_begin ] --START--
-INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
-INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
-SQL: SHOW COLUMNS FROM `connect` [ RunTime:0.0030s ]
 SQL: SELECT * FROM `connect` ORDER BY id desc  [ RunTime:0.0005s ]
 INFO: [ view_parse ] --START--
 INFO: [ template_filter ] --START--
 INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
-INFO: [ template_filter ] --END-- [ RunTime:0.000500s ]
-INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
-INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
-INFO: [ view_filter ] --START--
-INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000500s ]
-INFO: [ view_filter ] --END-- [ RunTime:0.000500s ]
-INFO: [ app_end ] --START--
-INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000500s ]
-INFO: [ app_end ] --END-- [ RunTime:0.000500s ]
-
-[ 2017-02-06T19:20:54+08:00 ] ::1 /test/Admin/Item/look
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000500s ]
-INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
-INFO: [ app_begin ] --START--
-INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
-INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
-SQL: SHOW COLUMNS FROM `connect` [ RunTime:0.0020s ]
-SQL: SELECT * FROM `connect` ORDER BY id desc  [ RunTime:0.0000s ]
-INFO: [ view_parse ] --START--
-INFO: [ template_filter ] --START--
-INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
 INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
-NOTIC: [8] Use of undefined constant open_1 - assumed 'open_1' F:\HTML\test\Runtime\Cache\Admin\f8c305c0664b4708833586d221876a56.php 第 181 行.
-NOTIC: [8] Use of undefined constant open_1 - assumed 'open_1' F:\HTML\test\Runtime\Cache\Admin\f8c305c0664b4708833586d221876a56.php 第 181 行.
-NOTIC: [8] Use of undefined constant open_1 - assumed 'open_1' F:\HTML\test\Runtime\Cache\Admin\f8c305c0664b4708833586d221876a56.php 第 181 行.
-NOTIC: [8] Use of undefined constant open_1 - assumed 'open_1' F:\HTML\test\Runtime\Cache\Admin\f8c305c0664b4708833586d221876a56.php 第 181 行.
-NOTIC: [8] Use of undefined constant open_1 - assumed 'open_1' F:\HTML\test\Runtime\Cache\Admin\f8c305c0664b4708833586d221876a56.php 第 181 行.
 INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
 INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
 INFO: [ view_filter ] --START--
@@ -141,164 +181,39 @@ INFO: [ app_end ] --START--
 INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
 INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
 
-[ 2017-02-06T19:21:01+08:00 ] ::1 /test/Admin/Item/questionnaire1
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
-INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
-INFO: [ app_begin ] --START--
-INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
-INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
-INFO: [ view_parse ] --START--
-INFO: [ template_filter ] --START--
-INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
-INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
-INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006001s ]
-INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
-INFO: [ view_filter ] --START--
-INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000500s ]
-INFO: [ view_filter ] --END-- [ RunTime:0.000500s ]
-INFO: [ app_end ] --START--
-INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000500s ]
-INFO: [ app_end ] --END-- [ RunTime:0.000500s ]
-
-[ 2017-02-06T19:21:02+08:00 ] ::1 /test/Admin/Item/questionnaire3
+[ 2017-02-06T20:09:52+08:00 ] ::1 /judge/Admin/Item/questionnaire1
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
 INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
 INFO: [ app_begin ] --START--
 INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.047006s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047006s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000500s ]
+
+[ 2017-02-06T20:09:53+08:00 ] ::1 /judge/Admin/Item/questionnaire3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
 INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
 INFO: [ view_parse ] --START--
 INFO: [ template_filter ] --START--
 INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
 INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
-INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005500s ]
-INFO: [ view_parse ] --END-- [ RunTime:0.005500s ]
-INFO: [ view_filter ] --START--
-INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
-INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
-INFO: [ app_end ] --START--
-INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000500s ]
-INFO: [ app_end ] --END-- [ RunTime:0.000500s ]
-
-[ 2017-02-06T19:21:21+08:00 ] ::1 /test/Admin/Item/look
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
-INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
-INFO: [ app_begin ] --START--
-INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
-INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
-SQL: SHOW COLUMNS FROM `connect` [ RunTime:0.0030s ]
-SQL: SELECT * FROM `connect` ORDER BY id desc  [ RunTime:0.0005s ]
-INFO: [ view_parse ] --START--
-INFO: [ template_filter ] --START--
-INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
-INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
-NOTIC: [8] Use of undefined constant open_1 - assumed 'open_1' F:\HTML\test\Runtime\Cache\Admin\f8c305c0664b4708833586d221876a56.php 第 181 行.
-NOTIC: [8] Use of undefined constant open_1 - assumed 'open_1' F:\HTML\test\Runtime\Cache\Admin\f8c305c0664b4708833586d221876a56.php 第 181 行.
-NOTIC: [8] Use of undefined constant open_1 - assumed 'open_1' F:\HTML\test\Runtime\Cache\Admin\f8c305c0664b4708833586d221876a56.php 第 181 行.
-NOTIC: [8] Use of undefined constant open_1 - assumed 'open_1' F:\HTML\test\Runtime\Cache\Admin\f8c305c0664b4708833586d221876a56.php 第 181 行.
-NOTIC: [8] Use of undefined constant open_1 - assumed 'open_1' F:\HTML\test\Runtime\Cache\Admin\f8c305c0664b4708833586d221876a56.php 第 181 行.
-INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007501s ]
-INFO: [ view_parse ] --END-- [ RunTime:0.007501s ]
-INFO: [ view_filter ] --START--
-INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000500s ]
-INFO: [ view_filter ] --END-- [ RunTime:0.000500s ]
-INFO: [ app_end ] --START--
-INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000500s ]
-INFO: [ app_end ] --END-- [ RunTime:0.000500s ]
-
-[ 2017-02-06T19:21:23+08:00 ] ::1 /test/Admin/Item/change
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
-INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
-INFO: [ app_begin ] --START--
-INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
-INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
-SQL: SHOW COLUMNS FROM `connect` [ RunTime:0.0030s ]
-SQL: SELECT * FROM `connect` ORDER BY id desc  [ RunTime:0.0005s ]
-INFO: [ view_parse ] --START--
-INFO: [ template_filter ] --START--
-INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
-INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
-INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006501s ]
-INFO: [ view_parse ] --END-- [ RunTime:0.006501s ]
-INFO: [ view_filter ] --START--
-INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
-INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
-INFO: [ app_end ] --START--
-INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
-INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
-
-[ 2017-02-06T19:21:26+08:00 ] ::1 /test/Admin/Item/look
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
-INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
-INFO: [ app_begin ] --START--
-INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
-INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
-SQL: SHOW COLUMNS FROM `connect` [ RunTime:0.0020s ]
-SQL: SELECT * FROM `connect` ORDER BY id desc  [ RunTime:0.0005s ]
-INFO: [ view_parse ] --START--
-INFO: [ template_filter ] --START--
-INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
-INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
-NOTIC: [8] Use of undefined constant open_1 - assumed 'open_1' F:\HTML\test\Runtime\Cache\Admin\f8c305c0664b4708833586d221876a56.php 第 181 行.
-NOTIC: [8] Use of undefined constant open_1 - assumed 'open_1' F:\HTML\test\Runtime\Cache\Admin\f8c305c0664b4708833586d221876a56.php 第 181 行.
-NOTIC: [8] Use of undefined constant open_1 - assumed 'open_1' F:\HTML\test\Runtime\Cache\Admin\f8c305c0664b4708833586d221876a56.php 第 181 行.
-NOTIC: [8] Use of undefined constant open_1 - assumed 'open_1' F:\HTML\test\Runtime\Cache\Admin\f8c305c0664b4708833586d221876a56.php 第 181 行.
-NOTIC: [8] Use of undefined constant open_1 - assumed 'open_1' F:\HTML\test\Runtime\Cache\Admin\f8c305c0664b4708833586d221876a56.php 第 181 行.
-INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009501s ]
-INFO: [ view_parse ] --END-- [ RunTime:0.009501s ]
-INFO: [ view_filter ] --START--
-INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
-INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
-INFO: [ app_end ] --START--
-INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
-INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
-
-[ 2017-02-06T19:21:28+08:00 ] ::1 /test/Admin/Item/change
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
-INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
-INFO: [ app_begin ] --START--
-INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
-INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
-SQL: SHOW COLUMNS FROM `connect` [ RunTime:0.0025s ]
-SQL: SELECT * FROM `connect` ORDER BY id desc  [ RunTime:0.0005s ]
-INFO: [ view_parse ] --START--
-INFO: [ template_filter ] --START--
-INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
-INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
-INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005001s ]
-INFO: [ view_parse ] --END-- [ RunTime:0.005501s ]
-INFO: [ view_filter ] --START--
-INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000500s ]
-INFO: [ view_filter ] --END-- [ RunTime:0.000500s ]
-INFO: [ app_end ] --START--
-INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000500s ]
-INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
-
-[ 2017-02-06T19:21:35+08:00 ] ::1 /test/Admin/Item/look
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
-INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
-INFO: [ app_begin ] --START--
-INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
-INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
-SQL: SHOW COLUMNS FROM `connect` [ RunTime:0.0030s ]
-SQL: SELECT * FROM `connect` ORDER BY id desc  [ RunTime:0.0000s ]
-INFO: [ view_parse ] --START--
-INFO: [ template_filter ] --START--
-INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
-INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
-NOTIC: [8] Use of undefined constant open_1 - assumed 'open_1' F:\HTML\test\Runtime\Cache\Admin\f8c305c0664b4708833586d221876a56.php 第 181 行.
-NOTIC: [8] Use of undefined constant open_1 - assumed 'open_1' F:\HTML\test\Runtime\Cache\Admin\f8c305c0664b4708833586d221876a56.php 第 181 行.
-NOTIC: [8] Use of undefined constant open_1 - assumed 'open_1' F:\HTML\test\Runtime\Cache\Admin\f8c305c0664b4708833586d221876a56.php 第 181 行.
-NOTIC: [8] Use of undefined constant open_1 - assumed 'open_1' F:\HTML\test\Runtime\Cache\Admin\f8c305c0664b4708833586d221876a56.php 第 181 行.
-NOTIC: [8] Use of undefined constant open_1 - assumed 'open_1' F:\HTML\test\Runtime\Cache\Admin\f8c305c0664b4708833586d221876a56.php 第 181 行.
-INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006501s ]
-INFO: [ view_parse ] --END-- [ RunTime:0.006501s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029003s ]
 INFO: [ view_filter ] --START--
 INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000500s ]
 INFO: [ view_filter ] --END-- [ RunTime:0.000500s ]
