@@ -23,5 +23,5 @@ ps
 ----------
 * 上传问卷![image](https://github.com/jjs1233/judge/blob/master/Public/images/show1.jpg)
 * 问卷管理![image](https://github.com/jjs1233/judge/blob/master/Public/images/show2.png)
-* 手机答题页面＜/br＞
+* 手机答题页面</br>
 ![image](https://github.com/jjs1233/judge/blob/master/Public/images/show3.png)
